@@ -1,0 +1,29 @@
+# 命令执行 docker-compose up -d
+version: '3.9'
+services:
+  mysql:
+    image: mysql:8.0.32
+    container_name: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      #      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes' # 可配置无密码，注意配置 SPRING_DATASOURCE_PASSWORD=
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_USER: xfg
+      MYSQL_PASSWORD: 123456
+    depends_on:
+      - mysql-job-dbdata
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+    volumes_from:
+      - mysql-job-dbdata
+
+  # 自动加载数据
+  mysql-job-dbdata:
+    image: alpine:3.18.2
+    container_name: mysql-job-dbdata
+    volumes:
+      - /var/lib/mysql
