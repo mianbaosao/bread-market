@@ -1,2 +1,2 @@
-# xfg-frame-archetype - DDD 脚手架
+# 面包大营销平台- DDD 脚手架
 
