@@ -1,0 +1,5 @@
+24-07-04.08:57:14.206 [main            ] INFO  ApiTest                - Starting ApiTest on Bread with PID 30996 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-04.08:57:14.206 [main            ] INFO  ApiTest                - The following profiles are active: dev
+24-07-04.08:57:14.961 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[cn.bugstack]' package. Please check your configuration.
+24-07-04.08:57:16.483 [main            ] INFO  ApiTest                - Started ApiTest in 2.778 seconds (JVM running for 4.178)
+24-07-04.08:57:16.669 [main            ] INFO  ApiTest                - 测试完成

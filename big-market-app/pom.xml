@@ -78,7 +78,27 @@
             <artifactId>converter-gson</artifactId>
             <version>2.9.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.65.Final</version> <!-- 使用适当的版本号 -->
+        </dependency>
+        <!-- Netty DNS 解析依赖 -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-resolver-dns</artifactId>
+            <version>4.1.65.Final</version> <!-- 使用适当的版本号 -->
+        </dependency>
+        <!-- Netty DNS 编解码依赖 -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-codec-dns</artifactId>
+            <version>4.1.65.Final</version> <!-- 使用适当的版本号 -->
+        </dependency>
         <!-- 工程模块；启动依赖 trigger->domain, infrastructure-->
         <dependency>
             <groupId>cn.bugstack</groupId>
