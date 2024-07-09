@@ -47,7 +47,6 @@ redis:
       retry-interval: 1000
       ping-interval: 60000
       keep-alive: true
-      database: 2
 
 
 # 日志
