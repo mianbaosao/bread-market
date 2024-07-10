@@ -4,9 +4,7 @@ import cn.bugstack.domain.strategy.model.entity.RaffleAwardEntity;
 import cn.bugstack.domain.strategy.model.entity.RaffleFactorEntity;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 抽奖策略接口
- * @create 2024-01-06 09:19
  */
 public interface IRaffleStrategy {
 

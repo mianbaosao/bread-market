@@ -20,9 +20,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
+ *
  * @description 默认的抽奖策略实现
- * @create 2024-01-06 11:46
  */
 @Slf4j
 @Service

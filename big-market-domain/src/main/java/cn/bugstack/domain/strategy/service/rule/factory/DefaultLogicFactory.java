@@ -13,9 +13,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 规则工厂
- * @create 2023-12-31 11:23
  */
 @Service
 public class DefaultLogicFactory {

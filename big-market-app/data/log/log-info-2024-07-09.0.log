@@ -1,0 +1,52 @@
+24-07-09.11:17:57.865 [main            ] INFO  StrategyTest           - Starting StrategyTest on Bread with PID 20888 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-09.11:17:57.866 [main            ] INFO  StrategyTest           - The following profiles are active: dev
+24-07-09.11:17:58.593 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-09.11:17:58.596 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-09.11:17:58.620 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+24-07-09.11:17:58.941 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b896cdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-09.11:18:00.320 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-09.11:18:03.166 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-09.11:18:03.182 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-09.11:18:04.804 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-09.11:18:04.855 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.345 seconds (JVM running for 8.221)
+24-07-09.11:18:05.214 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-09.11:18:06.337 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-09.11:18:06.405 [main            ] INFO  StrategyTest           - 测试结果：true
+24-07-09.11:18:06.426 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-09.11:18:06.430 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-09.15:07:58.025 [main            ] INFO  StrategyTest           - Starting StrategyTest on Bread with PID 28376 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-09.15:07:58.025 [main            ] INFO  StrategyTest           - The following profiles are active: dev
+24-07-09.15:07:58.753 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-09.15:07:58.756 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-09.15:07:58.778 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+24-07-09.15:07:59.108 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd2c28d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-09.15:08:00.543 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-09.15:08:02.666 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-09.15:08:02.681 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-09.15:08:04.289 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-09.15:08:04.336 [main            ] INFO  StrategyTest           - Started StrategyTest in 6.708 seconds (JVM running for 7.642)
+24-07-09.15:08:04.675 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-09.15:08:05.579 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-09.15:08:05.706 [main            ] INFO  StrategyTest           - 测试结果：true
+24-07-09.15:08:05.737 [main            ] INFO  StrategyTest           - 测试结果：104 - 奖品ID值
+24-07-09.15:08:05.763 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-09.15:08:05.777 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-09.15:08:32.436 [main            ] INFO  StrategyTest           - Starting StrategyTest on Bread with PID 22936 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-09.15:08:32.436 [main            ] INFO  StrategyTest           - The following profiles are active: dev
+24-07-09.15:08:33.142 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-09.15:08:33.145 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-09.15:08:33.168 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+24-07-09.15:08:33.499 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e5dbf7b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-09.15:08:34.728 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-09.15:08:36.865 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-09.15:08:36.880 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-09.15:08:38.455 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-09.15:08:38.499 [main            ] INFO  StrategyTest           - Started StrategyTest in 6.375 seconds (JVM running for 7.068)
+24-07-09.15:08:38.853 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-09.15:08:39.668 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-09.15:08:39.706 [main            ] INFO  StrategyTest           - 测试结果：true
+24-07-09.15:08:39.709 [main            ] INFO  StrategyTest           - 测试结果：102 - 4000 策略配置
+24-07-09.15:08:39.710 [main            ] INFO  StrategyTest           - 测试结果：102 - 5000 策略配置
+24-07-09.15:08:39.711 [main            ] INFO  StrategyTest           - 测试结果：103 - 6000 策略配置
+24-07-09.15:08:39.731 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-09.15:08:39.733 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
