@@ -15,9 +15,7 @@ import javax.annotation.Resource;
 import java.util.*;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 【抽奖前规则】根据抽奖权重返回可抽奖范围KEY
- * @create 2024-01-06 09:57
  */
 @Slf4j
 @Component

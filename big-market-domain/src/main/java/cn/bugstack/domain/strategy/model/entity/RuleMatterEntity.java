@@ -3,9 +3,7 @@ package cn.bugstack.domain.strategy.model.entity;
 import lombok.Data;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 规则物料实体对象，用于过滤规则的必要参数信息。
- * @create 2024-01-06 09:56
  */
 @Data
 public class RuleMatterEntity {
