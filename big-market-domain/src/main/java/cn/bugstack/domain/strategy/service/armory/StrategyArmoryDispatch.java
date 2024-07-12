@@ -29,7 +29,9 @@ public class StrategyArmoryDispatch implements IStrategyArmory,IStrategyDispatch
     @Override
     public boolean assembleLotteryStrategy(Long strategyId) {
         // 1. 查询策略配置
+        //将奖品key award_key放入redis的操作
         List<StrategyAwardEntity> strategyAwardEntities = repository.queryStrategyAwardList(strategyId);
+        //算概率，计算出range_key还有table_key放入redis
         assembleLotteryStrategy(String.valueOf(strategyId), strategyAwardEntities);
 
         // 2. 权重策略配置 - 适用于 rule_weight 权重规则配置
