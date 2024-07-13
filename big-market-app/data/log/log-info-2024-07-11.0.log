@@ -1,0 +1,726 @@
+24-07-10.15:32:11.960 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 22372 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-10.15:32:11.961 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-10.15:32:12.821 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-10.15:32:12.824 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-10.15:32:12.854 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+24-07-10.15:32:13.230 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cec7167c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-10.15:32:14.542 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-10.15:32:16.630 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:32:16.645 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:32:18.600 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-10.15:32:18.661 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.043 seconds (JVM running for 8.078)
+24-07-10.15:32:19.060 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+24-07-10.15:32:19.096 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-10.15:32:20.097 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-10.15:32:20.165 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-10.15:32:20.170 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-10.15:37:47.664 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 40880 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-10.15:37:47.665 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-10.15:37:49.259 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-10.15:37:49.262 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-10.15:37:49.293 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-10.15:37:49.661 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba04efd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-10.15:37:50.958 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-10.15:37:53.688 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:37:53.704 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:37:55.497 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-10.15:37:55.559 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.239 seconds (JVM running for 9.05)
+24-07-10.15:37:55.901 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+24-07-10.15:37:55.937 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-10.15:37:56.775 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-10.15:37:56.856 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-10.15:37:56.860 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-10.15:49:43.508 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29620 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-10.15:49:43.509 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-10.15:49:44.213 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-10.15:49:44.214 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-10.15:49:44.238 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+24-07-10.15:49:44.585 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cba7729f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-10.15:49:45.837 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-10.15:49:47.840 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:49:47.856 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:49:49.586 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-10.15:49:49.649 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.429 seconds (JVM running for 7.171)
+24-07-10.15:49:49.960 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+24-07-10.15:49:49.993 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-10.15:49:50.874 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-10.15:49:50.934 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-10.15:49:50.937 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-10.15:53:10.286 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 28792 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-10.15:53:10.287 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-10.15:53:10.999 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-10.15:53:11.001 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-10.15:53:11.029 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+24-07-10.15:53:11.363 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$161c708c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-10.15:53:12.490 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-10.15:53:14.398 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:53:14.415 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:53:15.963 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-10.15:53:16.014 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.052 seconds (JVM running for 6.753)
+24-07-10.15:53:16.293 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+24-07-10.15:53:16.324 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-10.15:53:17.126 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-10.15:53:17.154 [main            ] WARN  RuleBackListLogicFilter - splitRuleValue 数组长度小于 2, ruleValue: 1
+24-07-10.15:53:17.157 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
+24-07-10.15:53:17.159 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+24-07-10.15:53:17.332 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-10.15:53:17.337 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104}
+24-07-10.15:53:17.366 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-10.15:53:17.377 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-10.15:58:25.299 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 38816 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-10.15:58:25.300 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-10.15:58:25.998 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-10.15:58:26.000 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-10.15:58:26.025 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+24-07-10.15:58:26.372 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$126402b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-10.15:58:27.644 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-10.15:58:29.601 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:58:29.615 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.15:58:31.354 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-10.15:58:31.424 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.417 seconds (JVM running for 7.115)
+24-07-10.15:58:31.710 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:user003 strategyId:100001 ruleModel:rule_blacklist
+24-07-10.15:58:31.738 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-10.15:58:32.576 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-10.15:58:32.728 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+24-07-10.15:58:32.731 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":100}
+24-07-10.15:58:32.764 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-10.15:58:32.786 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-10.17:22:01.896 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 39744 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-10.17:22:01.897 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-10.17:22:02.876 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-10.17:22:02.879 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-10.17:22:02.909 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+24-07-10.17:22:03.273 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba04efd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-10.17:22:04.636 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-10.17:22:06.689 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.17:22:06.711 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-10.17:22:08.413 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-10.17:22:08.467 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.917 seconds (JVM running for 7.733)
+24-07-10.17:22:08.829 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:mianbao strategyId:100001 ruleModel:rule_blacklist
+24-07-10.17:22:08.858 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-10.17:22:09.744 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-10.17:22:09.775 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:mianbao strategyId:100001 ruleModel:rule_weight
+24-07-10.17:22:09.778 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: mianbao ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+24-07-10.17:22:09.969 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"mianbao"}
+24-07-10.17:22:09.972 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-10.17:22:10.000 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-10.17:22:10.013 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-11.11:38:04.618 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 25604 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:38:04.618 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:38:05.414 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:38:05.416 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:38:05.446 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-11.11:38:05.792 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$126402b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:38:06.974 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:38:20.046 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+24-07-11.11:38:20.057 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-07-11.11:38:20.071 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:630)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 40 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:630)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 56 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:525)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:630)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 72 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 87 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$0(ConnectionPool.java:132)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:294)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$6(ConnectionPool.java:253)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisClient$1$2.run(RedisClient.java:257)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: 127.0.0.1/127.0.0.1:6379
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:326)
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:338)
+	at java.util.concurrent.CompletableFuture.uniRelay(CompletableFuture.java:925)
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:913)
+	... 10 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: 127.0.0.1/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-07-11.11:38:20.076 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@128d2484] to prepare test instance [cn.bugstack.test.domain.RaffleStrategyTest@1da4b3f9]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:630)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 40 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:518)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:630)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 56 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:525)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:630)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:180)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	... 72 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 87 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$0(ConnectionPool.java:132)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:294)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$6(ConnectionPool.java:253)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisClient$1$2.run(RedisClient.java:257)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: 127.0.0.1/127.0.0.1:6379
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:326)
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:338)
+	at java.util.concurrent.CompletableFuture.uniRelay(CompletableFuture.java:925)
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:913)
+	... 10 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: 127.0.0.1/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-07-11.11:39:09.199 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26660 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:39:09.199 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:39:09.968 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:39:09.971 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:39:09.998 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-11.11:39:10.340 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb8b3a83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:39:11.548 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:39:13.726 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:39:13.742 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:39:15.584 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:39:15.656 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.765 seconds (JVM running for 7.507)
+24-07-11.11:39:15.998 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-11.11:39:17.025 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-11.11:39:17.112 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-11.11:39:17.117 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-11.11:42:12.243 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26436 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:42:12.243 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:42:12.946 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:42:12.948 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:42:12.971 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+24-07-11.11:42:13.315 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb8b3a83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:42:14.506 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:42:16.660 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:42:16.688 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:42:18.475 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:42:18.540 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.635 seconds (JVM running for 7.42)
+24-07-11.11:50:06.671 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 412 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:50:06.671 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:50:07.397 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:50:07.399 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:50:07.422 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+24-07-11.11:50:07.784 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b58d79e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:50:09.139 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:50:11.360 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:50:11.378 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:50:13.102 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:50:13.157 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.818 seconds (JVM running for 7.6)
+24-07-11.11:53:50.342 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 22164 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:53:50.343 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:53:51.037 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:53:51.040 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:53:51.078 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+24-07-11.11:53:51.420 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73b020e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:53:52.612 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:53:54.713 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:53:54.729 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:53:56.457 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:53:56.513 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.479 seconds (JVM running for 7.219)
+24-07-11.11:54:26.788 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26212 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:54:26.788 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:54:27.433 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:54:27.434 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:54:27.457 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+24-07-11.11:54:27.791 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b58d79e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:54:28.943 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:54:30.975 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:54:30.989 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:54:32.641 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:54:32.693 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.194 seconds (JVM running for 6.946)
+24-07-11.11:55:03.110 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 24444 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:55:03.110 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:55:03.763 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:55:03.765 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:55:03.792 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-11.11:55:04.154 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$212a51a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:55:05.367 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:55:07.557 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:55:07.574 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:55:09.317 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:55:09.374 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.573 seconds (JVM running for 7.278)
+24-07-11.11:55:29.492 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 25944 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.11:55:29.494 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.11:55:30.176 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.11:55:30.179 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.11:55:30.210 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-11.11:55:30.539 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f0b21ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.11:55:31.836 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.11:55:34.208 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:55:34.223 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.11:55:36.020 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.11:55:36.091 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.897 seconds (JVM running for 7.608)
+24-07-11.11:55:36.377 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:mianbao strategyId:100001 ruleModel:rule_blacklist
+24-07-11.11:55:36.415 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-11.11:55:37.342 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-11.11:55:37.372 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:mianbao strategyId:100001 ruleModel:rule_weight
+24-07-11.11:55:37.376 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: mianbao ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+24-07-11.11:55:37.533 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"mianbao"}
+24-07-11.11:55:37.538 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+24-07-11.11:55:37.573 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-11.11:55:37.584 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-11.14:30:52.174 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29176 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:30:52.174 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:30:52.893 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:30:52.895 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:30:52.919 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+24-07-11.14:30:53.268 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f99d70cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:30:54.751 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.14:30:57.256 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:30:57.276 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:30:59.232 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.14:30:59.310 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.475 seconds (JVM running for 8.465)
+24-07-11.14:43:49.311 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29440 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:43:49.312 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:43:50.193 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:43:50.195 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:43:50.229 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-11.14:43:50.637 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$329644e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:43:51.947 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.14:43:54.225 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:43:54.246 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:43:56.501 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.14:43:56.591 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.643 seconds (JVM running for 8.547)
+24-07-11.14:44:46.386 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 28580 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:44:46.387 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:44:47.195 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:44:47.197 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:44:47.226 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+24-07-11.14:44:47.668 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$329644e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:44:53.748 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 3724 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:44:53.748 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:44:54.729 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:44:54.731 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:44:54.762 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-11.14:44:55.334 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$700e60ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:44:56.874 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.14:44:59.470 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:44:59.503 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:45:01.722 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.14:45:01.815 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.52 seconds (JVM running for 10.154)
+24-07-11.14:45:57.206 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29028 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:45:57.206 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:45:58.077 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:45:58.080 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:45:58.107 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+24-07-11.14:45:58.578 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$489e7313] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:46:00.040 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.14:46:02.831 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:46:02.844 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:46:05.252 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.14:46:05.352 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.574 seconds (JVM running for 9.588)
+24-07-11.14:46:45.062 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 13888 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:46:45.063 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:46:45.952 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:46:45.954 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:46:45.979 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+24-07-11.14:46:46.397 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$429b69ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:46:47.705 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.14:46:50.069 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:46:50.083 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:46:52.148 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.14:46:52.216 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.539 seconds (JVM running for 8.484)
+24-07-11.14:50:49.076 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29564 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.14:50:49.076 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.14:50:49.830 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.14:50:49.831 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.14:50:49.855 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+24-07-11.14:50:50.223 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f87522e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.14:50:51.403 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.14:50:53.528 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:50:53.543 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.14:50:55.410 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.14:50:55.482 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.789 seconds (JVM running for 7.639)
+24-07-11.15:12:00.178 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29348 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:12:00.178 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:12:00.853 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:12:00.854 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:12:00.878 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+24-07-11.15:12:01.209 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9e17dcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:12:02.419 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:12:04.690 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:12:04.706 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:12:06.437 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:12:06.489 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.619 seconds (JVM running for 7.358)
+24-07-11.15:12:06.673 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-11.15:12:07.726 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-11.15:12:07.824 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-11.15:12:07.827 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-11.15:12:31.609 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29464 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:12:31.610 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:12:32.411 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:12:32.413 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:12:32.438 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+24-07-11.15:12:32.812 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14a21712] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:12:34.008 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:12:36.324 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:12:36.341 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:12:38.564 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:12:38.639 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.389 seconds (JVM running for 8.321)
+24-07-11.15:16:26.446 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 23988 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:16:26.446 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:16:27.529 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:16:27.532 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:16:27.563 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+24-07-11.15:16:28.005 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f6febd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:16:29.275 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:16:31.355 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:16:31.373 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:16:33.198 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:16:33.273 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.204 seconds (JVM running for 8.138)
+24-07-11.15:17:59.712 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 11064 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:17:59.713 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:18:00.553 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:18:00.556 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:18:00.580 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+24-07-11.15:18:01.006 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7913718f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:18:02.377 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:18:04.954 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:18:04.972 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:18:07.031 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:18:07.110 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.756 seconds (JVM running for 8.667)
+24-07-11.15:24:37.474 [redisson-netty-2-8] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x88ad1a26, L:/127.0.0.1:65254 - R:127.0.0.1/127.0.0.1:6379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-07-11.15:26:58.256 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 15072 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:26:58.257 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:26:58.952 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:26:58.954 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:26:58.975 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+24-07-11.15:26:59.336 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e89849ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:27:00.564 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:27:02.838 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:27:02.851 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:27:04.581 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:27:04.635 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.673 seconds (JVM running for 7.386)
+24-07-11.15:31:57.806 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 28768 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:31:57.807 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:31:58.534 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:31:58.535 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:31:58.563 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-11.15:31:58.912 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b58d79e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:32:00.151 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:32:02.497 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:32:02.513 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:32:04.239 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:32:04.295 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.79 seconds (JVM running for 7.533)
+24-07-11.15:34:11.830 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 24548 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:34:11.831 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:34:12.542 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:34:12.544 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:34:12.573 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-11.15:34:12.914 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb8b3a83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:34:14.205 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:34:16.494 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:34:16.509 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:34:18.254 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:34:18.315 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.812 seconds (JVM running for 7.523)
+24-07-11.15:39:15.361 [main            ] INFO  StrategyTest           - Starting StrategyTest on Bread with PID 20576 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:39:15.362 [main            ] INFO  StrategyTest           - The following profiles are active: dev
+24-07-11.15:39:16.066 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:39:16.068 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:39:16.099 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-11.15:39:16.452 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a86c9d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:39:17.566 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:39:19.616 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:39:19.630 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:39:21.399 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:39:21.472 [main            ] INFO  StrategyTest           - Started StrategyTest in 6.427 seconds (JVM running for 7.161)
+24-07-11.15:39:21.766 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-11.15:39:22.617 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-11.15:39:22.698 [main            ] INFO  StrategyTest           - 测试结果：true
+24-07-11.15:39:22.700 [main            ] INFO  StrategyTest           - 测试结果：107 - 奖品ID值
+24-07-11.15:39:22.732 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-11.15:39:22.748 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-11.15:39:35.329 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26432 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.15:39:35.329 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.15:39:35.991 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.15:39:35.993 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.15:39:36.024 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+24-07-11.15:39:36.367 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cec7167c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.15:39:37.497 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.15:39:39.343 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:39:39.358 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.15:39:41.066 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.15:39:41.131 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.086 seconds (JVM running for 6.759)
+24-07-11.15:39:41.494 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-11.15:39:42.329 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-11.15:39:42.369 [main            ] INFO  RuleLockLogicFilter    - 规则过滤-次数锁 userId:mianbao strategyId:100003 ruleModel:rule_lock
+24-07-11.15:39:42.386 [main            ] INFO  DefaultRaffleStrategy  - 抽奖中规则过滤 userId: mianbao ruleModel: rule_lock code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+24-07-11.15:39:42.386 [main            ] INFO  AbstractRaffleStrategy - 【临时日志】中奖中规则拦截，通过抽奖后规则 rule_luck_award 走兜底奖励。
+24-07-11.15:39:42.565 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100003,"userId":"mianbao"}
+24-07-11.15:39:42.568 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardDesc":"中奖中规则拦截，通过抽奖后规则 rule_luck_award 走兜底奖励。"}
+24-07-11.15:39:42.591 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-11.15:39:42.602 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-11.16:27:18.679 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29024 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-11.16:27:18.679 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-11.16:27:19.571 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-11.16:27:19.574 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-11.16:27:19.601 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-11.16:27:19.973 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd842898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-11.16:27:21.227 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-11.16:27:23.307 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.16:27:23.322 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-11.16:27:25.339 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-11.16:27:25.399 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.122 seconds (JVM running for 8.175)
+24-07-11.16:27:57.263 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-11.16:28:00.740 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-11.16:28:23.730 [main            ] INFO  RuleLockLogicFilter    - 规则过滤-次数锁 userId:mianbao strategyId:100003 ruleModel:rule_lock
+24-07-11.16:28:23.805 [main            ] INFO  DefaultRaffleStrategy  - 抽奖中规则过滤 userId: mianbao ruleModel: rule_lock code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+24-07-11.16:28:40.811 [main            ] INFO  AbstractRaffleStrategy - 【临时日志】抽奖中规则拦截，通过抽奖后规则 rule_luck_award 走兜底奖励。
+24-07-11.16:28:48.025 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100003,"userId":"mianbao"}
+24-07-11.16:28:51.973 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardDesc":"抽奖中规则拦截，通过抽奖后规则 rule_luck_award 走兜底奖励。"}
+24-07-11.16:29:00.924 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-11.16:29:00.936 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
