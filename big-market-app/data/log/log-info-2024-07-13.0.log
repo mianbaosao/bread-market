@@ -1,0 +1,22 @@
+24-07-13.11:40:56.841 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 23012 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-13.11:40:56.841 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-07-13.11:40:57.657 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-13.11:40:57.660 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-13.11:40:57.690 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-13.11:40:58.059 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1a2e98f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-13.11:40:59.315 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-13.11:41:35.249 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 23776 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-13.11:41:35.250 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-07-13.11:41:35.971 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-13.11:41:35.973 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-13.11:41:35.998 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-13.11:41:36.321 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d1f9c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-13.11:41:37.488 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-13.11:41:39.263 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.11:41:39.276 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-13.11:41:41.087 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-13.11:41:41.138 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 6.247 seconds (JVM running for 6.977)
+24-07-13.11:41:41.421 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-07-13.11:41:41.422 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
+24-07-13.11:41:41.424 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
+24-07-13.11:41:41.555 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
