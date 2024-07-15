@@ -17,7 +17,7 @@ import java.util.Map;
 public class RuleTreeVO {
 
     /** 规则树ID */
-    private Integer treeId;
+    private String treeId;
     /** 规则树名称 */
     private String treeName;
     /** 规则树描述 */
