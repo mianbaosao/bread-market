@@ -19,7 +19,6 @@ import java.util.Map;
 @Service
 public class DefaultTreeFactory {
 
-
     private final Map<String, ILogicTreeNode> logicTreeNodeGroup;
 
     public DefaultTreeFactory(Map<String, ILogicTreeNode> logicTreeNodeGroup) {
@@ -39,14 +38,14 @@ public class DefaultTreeFactory {
     @NoArgsConstructor
     public static class TreeActionEntity {
         private RuleLogicCheckTypeVO ruleLogicCheckType;
-        private StrategyAwardVO strategyAwardVO;
+        private StrategyAwardData strategyAwardData;
     }
 
     @Data
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class StrategyAwardVO {
+    public static class StrategyAwardData {
         /** 抽奖奖品ID - 内部流转使用 */
         private Integer awardId;
         /** 抽奖奖品规则 */
