@@ -5,7 +5,6 @@ import org.redisson.api.*;
 /**
  * Redis 服务
  *
- * @author Fuzhengwei bugstack.cn @小傅哥
  */
 public interface IRedisService {
 
@@ -60,6 +59,21 @@ public interface IRedisService {
      * @return 队列
      */
     <T> RDelayedQueue<T> getDelayedQueue(RBlockingQueue<T> rBlockingQueue);
+
+    /**
+     * 设置值
+     *
+     * @param key   key 键
+     * @param value 值
+     */
+    void setAtomicLong(String key, long value);
+
+    /**
+     * 获取值
+     *
+     * @param key   key 键
+     */
+    Long getAtomicLong(String key);
 
     /**
      * 自增 Key 的值；1、2、3、4
@@ -246,4 +260,5 @@ public interface IRedisService {
      */
     <T> RBloomFilter<T> getBloomFilter(String key);
 
+    Boolean setNx(String key);
 }

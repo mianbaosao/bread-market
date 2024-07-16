@@ -1,6 +1,7 @@
 package cn.bugstack.infrastructure.persistent.redis;
 
 import org.redisson.api.*;
+
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -9,7 +10,6 @@ import java.time.Duration;
 /**
  * Redis 服务 - Redisson
  *
- * @author Fuzhengwei bugstack.cn @小傅哥
  */
 @Service("redissonService")
 public class RedissonService implements IRedisService {
@@ -44,6 +44,16 @@ public class RedissonService implements IRedisService {
     @Override
     public <T> RDelayedQueue<T> getDelayedQueue(RBlockingQueue<T> rBlockingQueue) {
         return redissonClient.getDelayedQueue(rBlockingQueue);
+    }
+
+    @Override
+    public void setAtomicLong(String key, long value) {
+        redissonClient.getAtomicLong(key).set(value);
+    }
+
+    @Override
+    public Long getAtomicLong(String key) {
+        return redissonClient.getAtomicLong(key).get();
     }
 
     @Override
@@ -156,5 +166,9 @@ public class RedissonService implements IRedisService {
         return redissonClient.getBloomFilter(key);
     }
 
+    @Override
+    public Boolean setNx(String key) {
+        return redissonClient.getBucket(key).trySet("lock");
+    }
 
 }
