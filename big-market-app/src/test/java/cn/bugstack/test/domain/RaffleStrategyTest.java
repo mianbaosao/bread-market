@@ -23,6 +23,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @description 抽奖策略测试
+ * bread
  */
 @Slf4j
 @RunWith(SpringRunner.class)
