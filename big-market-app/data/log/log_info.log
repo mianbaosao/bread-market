@@ -1,41 +1,608 @@
-24-07-12.11:29:30.195 [main            ] INFO  LogicChainTest         - Starting LogicChainTest on Bread with PID 16860 (started by Lenovo in E:\big-market\big-market\big-market-app)
-24-07-12.11:29:30.196 [main            ] INFO  LogicChainTest         - The following profiles are active: dev
-24-07-12.11:29:30.952 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-24-07-12.11:29:30.955 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-24-07-12.11:29:30.984 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-24-07-12.11:29:31.343 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$97c40e49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-07-12.11:29:32.668 [main            ] INFO  Version                - Redisson 3.23.4
-24-07-12.11:29:34.986 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-12.11:29:35.001 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-12.11:29:37.093 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
-24-07-12.11:29:37.526 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 7.703 seconds (JVM running for 8.59)
-24-07-12.11:29:38.144 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-07-12.11:29:41.079 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-07-12.11:29:41.621 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-07-12.11:29:41.632 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-07-12.11:29:41.664 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-07-12.11:29:41.671 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-07-12.11:29:41.671 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-07-12.11:29:41.712 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-07-12.11:29:41.727 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-07-12.11:29:54.747 [main            ] INFO  LogicChainTest         - Starting LogicChainTest on Bread with PID 22628 (started by Lenovo in E:\big-market\big-market\big-market-app)
-24-07-12.11:29:54.748 [main            ] INFO  LogicChainTest         - The following profiles are active: dev
-24-07-12.11:29:55.426 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-24-07-12.11:29:55.427 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-24-07-12.11:29:55.452 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-24-07-12.11:29:55.798 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8f94092] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-07-12.11:29:56.996 [main            ] INFO  Version                - Redisson 3.23.4
-24-07-12.11:29:59.083 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-12.11:29:59.096 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-07-12.11:30:00.821 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
-24-07-12.11:30:00.885 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 6.455 seconds (JVM running for 7.191)
-24-07-12.11:30:01.287 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-07-12.11:30:02.223 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-07-12.11:30:02.288 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-07-12.11:30:02.297 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-07-12.11:30:02.306 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-07-12.11:30:02.309 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-07-12.11:30:02.330 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 102
-24-07-12.11:30:02.330 [main            ] INFO  LogicChainTest         - 测试结果：102
-24-07-12.11:30:02.358 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-07-12.11:30:02.364 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.11:50:32.665 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 2228 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.11:50:32.666 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.11:50:33.611 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.11:50:33.614 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.11:50:33.644 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.11:50:34.026 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc2bf848] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.11:50:35.465 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.11:50:37.915 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:50:37.929 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:50:39.823 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.11:50:39.904 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.709 seconds (JVM running for 8.779)
+24-07-16.11:50:40.264 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.11:50:41.267 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.11:50:41.391 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.11:50:41.456 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.11:50:41.465 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.11:53:21.519 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 14096 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.11:53:21.519 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.11:53:22.337 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.11:53:22.339 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.11:53:22.366 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+24-07-16.11:53:22.718 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc2bf848] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.11:53:24.082 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.11:53:26.652 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:53:26.671 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:53:28.411 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.11:53:28.469 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.283 seconds (JVM running for 8.183)
+24-07-16.11:53:28.821 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.11:56:48.278 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 25476 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.11:56:48.278 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.11:56:49.827 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.11:56:49.829 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.11:56:49.859 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+24-07-16.11:56:50.210 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31510e74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.11:56:51.684 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.11:56:53.852 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:56:53.866 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:56:55.631 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.11:56:55.689 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.755 seconds (JVM running for 9.398)
+24-07-16.11:56:56.024 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.11:56:57.094 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.11:56:57.305 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.11:56:57.330 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.11:56:57.359 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.11:56:57.359 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-07-16.11:56:57.363 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
+24-07-16.11:56:57.364 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 103 rule_weight
+24-07-16.11:56:57.525 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-16.11:56:57.528 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+24-07-16.11:56:57.529 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.11:56:57.530 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.11:56:57.530 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-07-16.11:56:57.532 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
+24-07-16.11:56:57.533 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 103 rule_weight
+24-07-16.11:56:57.533 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-16.11:56:57.533 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+24-07-16.11:56:57.533 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.11:56:57.534 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.11:56:57.534 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-07-16.11:56:57.536 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
+24-07-16.11:56:57.536 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 103 rule_weight
+24-07-16.11:56:57.536 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-16.11:56:57.536 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+24-07-16.11:58:42.195 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 3332 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.11:58:42.196 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.11:58:42.964 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.11:58:42.967 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.11:58:42.995 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-16.11:58:43.378 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bbd328f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.11:58:44.825 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.11:58:47.281 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:58:47.294 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.11:58:49.267 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.11:58:49.340 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.468 seconds (JVM running for 8.176)
+24-07-16.11:58:49.612 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.11:58:50.577 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.11:58:50.646 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.11:58:50.723 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.11:58:50.733 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.14:21:23.232 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 4260 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.14:21:23.233 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.14:21:24.139 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.14:21:24.141 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.14:21:24.172 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+24-07-16.14:21:25.568 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92c28c29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.14:21:27.647 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.14:21:30.750 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:21:30.761 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:21:33.629 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.14:21:33.737 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 10.926 seconds (JVM running for 12.797)
+24-07-16.14:21:34.261 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.14:23:58.103 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26828 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.14:23:58.104 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.14:23:59.020 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.14:23:59.022 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.14:23:59.052 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.14:23:59.438 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fabf660] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.14:24:00.859 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.14:24:03.535 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:24:03.550 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:24:06.013 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.14:24:06.095 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.346 seconds (JVM running for 9.234)
+24-07-16.14:24:06.554 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.14:24:06.563 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.14:24:06.564 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.14:24:06.593 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.14:24:07.945 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.14:24:08.019 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.14:24:08.022 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.14:24:08.061 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.14:24:08.084 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.14:25:11.717 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 24284 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.14:25:11.717 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.14:25:12.676 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.14:25:12.678 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.14:25:12.708 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+24-07-16.14:25:13.104 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c156776f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.14:25:14.679 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.14:25:17.058 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:25:17.070 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:25:19.554 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.14:25:19.620 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.24 seconds (JVM running for 8.994)
+24-07-16.14:25:19.984 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.14:25:19.989 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.14:25:19.990 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.14:25:20.005 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.14:25:20.960 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.14:25:21.013 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.14:25:21.014 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.14:25:21.045 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.14:25:21.048 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.14:29:35.819 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 8904 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.14:29:35.819 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.14:29:36.600 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.14:29:36.602 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.14:29:36.630 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.14:29:36.979 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d98c7922] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.14:29:38.409 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.14:29:41.411 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:29:41.424 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:29:43.269 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.14:29:43.355 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.836 seconds (JVM running for 8.603)
+24-07-16.14:29:43.729 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.14:29:43.736 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.14:29:43.738 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.14:29:43.760 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.14:29:44.937 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.14:29:44.980 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.14:29:44.981 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.14:29:45.007 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.14:29:45.010 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.14:30:30.051 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 18428 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.14:30:30.051 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.14:30:30.954 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.14:30:30.957 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.14:30:30.985 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.14:30:31.407 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$305e7f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.14:30:32.850 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.14:30:35.158 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:30:35.169 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:30:37.134 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.14:30:37.202 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.512 seconds (JVM running for 8.52)
+24-07-16.14:30:37.516 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.14:30:47.890 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.14:31:01.289 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.14:31:03.101 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.14:31:06.513 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.14:31:06.662 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.14:31:06.666 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.14:31:31.575 [redisson-netty-2-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x4495d976, L:/127.0.0.1:54794 - R:127.0.0.1/127.0.0.1:6379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-07-16.14:31:31.592 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.14:31:31.602 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.14:31:53.095 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 22272 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.14:31:53.096 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.14:31:53.944 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.14:31:53.946 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.14:31:53.975 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.14:31:54.386 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5aea1037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.14:31:55.825 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.14:31:58.310 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:31:58.320 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.14:32:00.247 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.14:32:00.319 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.587 seconds (JVM running for 8.495)
+24-07-16.14:32:00.634 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.14:32:04.690 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.14:32:18.337 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.15:26:36.754 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 22636 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.15:26:36.755 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.15:26:38.552 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.15:26:38.554 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.15:26:38.580 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-16.15:26:38.901 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c156776f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.15:26:40.414 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.15:26:43.304 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.15:26:43.316 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.15:26:45.163 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.15:26:45.232 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.84 seconds (JVM running for 10.153)
+24-07-16.15:26:45.571 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.15:26:45.577 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.15:26:45.578 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.15:26:45.594 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.15:26:46.589 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.15:26:46.631 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.15:26:46.632 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.15:26:46.661 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.15:26:46.663 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.15:56:22.037 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 23676 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.15:56:22.038 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.15:56:22.817 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.15:56:22.819 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.15:56:22.847 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.15:56:23.174 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bbd328f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.15:56:24.476 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.15:56:26.833 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.15:56:26.845 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.15:56:28.542 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.15:56:28.625 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.889 seconds (JVM running for 7.617)
+24-07-16.15:56:28.927 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.15:56:28.933 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.15:56:28.935 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.15:56:28.953 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.15:56:29.784 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.15:56:29.826 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.15:56:29.827 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.15:56:29.852 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.15:56:29.854 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.16:00:19.459 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26932 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:00:19.460 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:00:20.305 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:00:20.307 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:00:20.336 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+24-07-16.16:00:20.723 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96b0e54b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:00:22.151 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:00:24.420 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:00:24.431 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:00:26.306 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:00:26.390 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.338 seconds (JVM running for 8.222)
+24-07-16.16:00:26.745 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:00:26.751 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.16:00:26.752 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.16:00:52.978 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:00:56.477 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:02:09.873 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s291ms155µs400ns).
+24-07-16.16:02:27.670 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.16:02:27.675 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.16:03:00.813 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s941ms503µs200ns).
+24-07-16.16:04:01.948 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s134ms223µs600ns).
+24-07-16.16:04:05.149 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.16:04:05.166 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.16:09:04.512 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 26764 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:09:04.513 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:09:05.372 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:09:05.374 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:09:05.407 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+24-07-16.16:09:05.787 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80694f29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:09:07.276 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:09:09.810 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:09:09.821 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:09:11.704 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:09:11.770 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.725 seconds (JVM running for 8.703)
+24-07-16.16:09:12.053 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:09:12.058 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.16:09:12.059 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.16:10:19.008 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:10:22.516 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:11:34.041 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s180ms838µs400ns).
+24-07-16.16:13:01.842 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.16:13:40.065 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s461ms447µs100ns).
+24-07-16.16:13:40.067 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.16:15:07.104 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s737ms234µs200ns).
+24-07-16.16:15:07.152 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.16:15:07.378 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.16:46:31.094 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 24688 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:46:31.095 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:46:31.871 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:46:31.874 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:46:31.901 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.16:46:32.243 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fabf660] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:46:33.564 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:46:36.289 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:46:36.300 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:46:38.163 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:46:38.223 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.435 seconds (JVM running for 8.192)
+24-07-16.16:46:38.544 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:46:39.573 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:46:39.783 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:46:39.806 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.16:46:39.829 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.16:46:39.829 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-07-16.16:46:39.833 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 104
+24-07-16.16:46:39.833 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 104 rule_weight
+24-07-16.16:46:39.966 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-16.16:46:39.969 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104}
+24-07-16.16:46:39.970 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.16:46:39.971 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.16:46:39.971 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-07-16.16:46:39.973 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 105
+24-07-16.16:46:39.973 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 105 rule_weight
+24-07-16.16:46:39.973 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-16.16:46:39.973 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":105}
+24-07-16.16:46:39.974 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.16:46:39.975 [main            ] INFO  BackListLogicChain     - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-07-16.16:46:39.975 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-07-16.16:46:39.977 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 102
+24-07-16.16:46:39.977 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 102 rule_weight
+24-07-16.16:46:39.977 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-07-16.16:46:39.977 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.16:47:55.724 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 6520 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:47:55.725 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:47:56.476 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:47:56.478 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:47:56.508 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+24-07-16.16:47:56.840 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80b314be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:47:58.229 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:48:01.117 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:48:01.136 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:48:03.024 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:48:03.094 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.679 seconds (JVM running for 8.408)
+24-07-16.16:48:03.365 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:48:04.471 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:48:04.547 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:48:04.565 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100002 ruleModel: rule_default awardId: 101
+24-07-16.16:48:04.566 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100002 101 rule_default
+24-07-16.16:48:04.608 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.16:48:04.620 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.16:48:34.650 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 25692 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:48:34.651 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:48:35.464 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:48:35.466 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:48:35.492 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-16.16:48:35.841 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6d7a088] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:48:37.279 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:48:39.624 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:48:39.638 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:48:41.369 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:48:41.455 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.088 seconds (JVM running for 7.793)
+24-07-16.16:48:41.765 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:48:41.774 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.16:48:41.776 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.16:48:41.790 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:48:42.818 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:48:42.859 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.16:48:42.860 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.16:48:42.888 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.16:48:42.890 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.16:49:49.466 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 4444 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:49:49.466 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:49:50.292 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:49:50.294 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:49:50.322 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+24-07-16.16:49:50.693 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d3db0a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:49:52.027 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:49:54.225 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:49:54.238 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:49:56.017 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:49:56.089 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.992 seconds (JVM running for 7.844)
+24-07-16.16:49:56.416 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:49:56.427 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.16:49:56.428 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.16:49:56.445 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:49:57.387 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:50:03.446 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.16:50:10.847 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.16:56:26.183 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m50s546ms371µs100ns).
+24-07-16.16:56:26.236 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.16:56:26.247 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.16:56:30.197 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 11992 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.16:56:30.198 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.16:56:30.934 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.16:56:30.937 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.16:56:30.978 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+24-07-16.16:56:31.340 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e56fcb24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.16:56:32.819 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.16:56:35.783 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:56:35.796 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.16:56:37.674 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.16:56:37.737 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.867 seconds (JVM running for 8.585)
+24-07-16.16:56:38.091 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.16:56:38.097 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.16:56:38.099 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.16:56:38.115 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.16:56:39.227 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.16:56:39.269 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.16:56:39.269 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.16:56:39.270 [main            ] WARN  DecisionTreeEngine     - 未找到下一个节点，当前节点: rule_lock
+24-07-16.16:56:39.299 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.16:56:39.302 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.17:01:01.140 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 27292 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.17:01:01.141 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.17:01:01.954 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.17:01:01.956 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.17:01:01.983 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+24-07-16.17:01:02.355 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3548d32b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.17:01:04.031 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.17:01:06.598 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:01:06.608 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:01:08.584 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.17:01:08.648 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.857 seconds (JVM running for 8.797)
+24-07-16.17:01:08.990 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.17:01:09.025 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.17:01:09.026 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.17:01:09.043 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.17:01:10.247 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.17:01:12.194 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.17:09:11.187 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m58s992ms552µs800ns).
+24-07-16.17:09:11.190 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.17:09:11.254 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.17:09:11.264 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.17:09:15.954 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 29324 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.17:09:15.956 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.17:09:16.733 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.17:09:16.735 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.17:09:16.771 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+24-07-16.17:09:17.117 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80b314be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.17:09:18.778 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.17:09:21.408 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:09:21.418 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:09:23.235 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.17:09:23.304 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.651 seconds (JVM running for 8.345)
+24-07-16.17:09:23.644 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.17:09:23.649 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.17:09:23.651 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.17:09:23.668 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.17:09:24.710 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.17:09:24.796 [main            ] INFO  DecisionTreeEngine     - cn.bugstack.domain.strategy.service.rule.tree.impl.RuleLockLogicTreeNode@355367606666666666666666
+24-07-16.17:09:24.797 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.17:09:24.797 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.17:09:24.828 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.17:09:24.841 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.17:13:56.361 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 28728 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.17:13:56.361 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.17:13:57.222 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.17:13:57.224 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.17:13:57.249 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+24-07-16.17:13:57.646 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d883c7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.17:13:59.349 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.17:13:59.513 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 23448 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.17:13:59.514 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.17:14:00.433 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.17:14:00.435 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.17:14:00.466 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+24-07-16.17:14:00.871 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4dc3987f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.17:14:02.076 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:14:02.090 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:14:02.546 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.17:14:04.014 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.17:14:04.075 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.055 seconds (JVM running for 8.829)
+24-07-16.17:14:04.436 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.17:14:04.443 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.17:14:04.444 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.17:14:04.460 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.17:14:06.035 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:14:06.049 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.17:14:06.055 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.17:14:06.106 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.17:14:06.107 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.17:14:06.142 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.17:14:06.145 [Thread-7        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.17:14:08.128 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.17:14:08.200 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 9.072 seconds (JVM running for 10.021)
+24-07-16.17:14:08.530 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.17:14:08.538 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.17:14:08.539 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.17:14:08.556 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.17:14:09.483 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.17:16:08.325 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m28s841ms34µs800ns).
+24-07-16.17:16:25.075 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.17:19:29.048 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s968ms748µs100ns).
+24-07-16.19:32:55.922 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 19248 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.19:32:55.923 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.19:32:56.670 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.19:32:56.673 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.19:32:56.700 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+24-07-16.19:32:57.069 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bbd328f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.19:32:59.076 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.19:33:02.821 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.19:33:02.838 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.19:33:04.796 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.19:33:04.847 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 9.263 seconds (JVM running for 10.065)
+24-07-16.19:33:05.254 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.19:33:05.264 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:33:05.265 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:33:05.289 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.19:33:06.310 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.19:33:06.356 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:33:06.357 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:33:06.392 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-07-16.19:33:06.394 [Thread-5        ] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-07-16.19:34:07.370 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 13448 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.19:34:07.372 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.19:34:08.053 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.19:34:08.055 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.19:34:08.090 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+24-07-16.19:34:08.504 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b94e1a72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.19:34:09.818 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.19:34:12.563 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.19:34:12.577 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.19:34:14.519 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.19:34:14.587 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.505 seconds (JVM running for 8.233)
+24-07-16.19:34:14.893 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.19:34:16.003 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.19:34:16.080 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.19:34:16.114 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:34:16.115 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:34:16.150 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.151 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:34:16.152 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.154 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.184 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-07-16.19:34:16.184 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 102 null
+24-07-16.19:34:16.344 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-07-16.19:34:16.346 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.19:34:16.349 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:34:16.349 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:34:16.362 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.362 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:34:16.362 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.364 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.365 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-07-16.19:34:16.365 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 102 null
+24-07-16.19:34:16.365 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-07-16.19:34:16.365 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.19:34:16.367 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:34:16.367 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:34:16.370 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.370 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:34:16.370 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.371 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:34:16.372 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-07-16.19:34:16.372 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 102 null
+24-07-16.19:34:16.372 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-07-16.19:34:16.372 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.19:42:27.950 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 25972 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-07-16.19:42:27.950 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-07-16.19:42:28.685 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-07-16.19:42:28.687 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-07-16.19:42:28.720 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+24-07-16.19:42:29.085 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$84943e07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-07-16.19:42:30.490 [main            ] INFO  Version                - Redisson 3.23.4
+24-07-16.19:42:32.571 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.19:42:32.591 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-07-16.19:42:34.414 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-07-16.19:42:34.512 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-07-16.19:42:34.581 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.935 seconds (JVM running for 7.709)
+24-07-16.19:42:34.894 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-07-16.19:42:34.900 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:42:34.902 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:42:34.921 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-07-16.19:42:35.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-07-16.19:42:35.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+24-07-16.19:42:35.841 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-07-16.19:42:35.888 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:35.889 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:42:35.889 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:35.892 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:35.917 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-07-16.19:42:35.917 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 102 null
+24-07-16.19:42:36.055 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-07-16.19:42:36.057 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.19:42:36.061 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:42:36.061 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:42:36.063 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:36.063 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:42:36.063 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:36.064 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:36.066 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-07-16.19:42:36.066 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 102 null
+24-07-16.19:42:36.066 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-07-16.19:42:36.066 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.19:42:36.068 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-07-16.19:42:36.068 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-07-16.19:42:36.070 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:36.070 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-07-16.19:42:36.070 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:36.072 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:102
+24-07-16.19:42:36.073 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-07-16.19:42:36.073 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 102 null
+24-07-16.19:42:36.073 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-07-16.19:42:36.073 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-07-16.19:42:40.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-07-16.19:42:40.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+24-07-16.19:42:45.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-07-16.19:42:45.012 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+24-07-16.19:42:50.016 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-07-16.19:42:50.018 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+24-07-16.19:42:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-07-16.19:42:55.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+24-07-16.19:43:00.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-07-16.19:43:00.012 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+24-07-16.19:43:05.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】

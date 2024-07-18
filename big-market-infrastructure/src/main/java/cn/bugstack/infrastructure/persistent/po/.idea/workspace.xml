@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0204ccec-ce5c-428f-af37-c62e08087fc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log-error-2024-07-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log-info-2024-07-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log-error-2024-07-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../../big-market-app/data/log/log_info.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="2jMECLsoq0GLTP8bnJUCK94sXF7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0204ccec-ce5c-428f-af37-c62e08087fc7" name="Default Changelist" comment="" />
+      <created>1721188416381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721188416381</updated>
+      <workItem from="1721188417839" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
