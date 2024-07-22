@@ -28,6 +28,7 @@
         from strategy_award
         where strategy_id = #{strategyId}
         order by sort asc
+     # ASC：这是排序顺序的指示符，表示按升序排序（从最小到最大）。如果没有指定 ASC 或 DESC，默认情况下将按升序排序。
     </select>
 
     <select id="queryStrategyAwardRuleModels" parameterType="cn.bugstack.infrastructure.persistent.po.StrategyAward" resultType="java.lang.String">

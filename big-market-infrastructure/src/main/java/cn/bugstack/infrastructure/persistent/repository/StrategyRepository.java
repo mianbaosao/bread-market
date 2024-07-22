@@ -46,10 +46,16 @@ public class StrategyRepository implements IStrategyRepository {
     @Resource
     private IRuleTreeNodeLineDao ruleTreeNodeLineDao;
 
+    /**
+     * 查询奖品配置信息
+     * @param strategyId
+     * @return
+     */
     @Override
     public List<StrategyAwardEntity> queryStrategyAwardList(Long strategyId) {
         // 优先从缓存获取
         String cacheKey = Constants.RedisKey.STRATEGY_AWARD_LIST_KEY + strategyId;
+        //big_market_strategy_award_list_key_+strategyId
         List<StrategyAwardEntity> strategyAwardEntities = redisService.getValue(cacheKey);
         if (null != strategyAwardEntities && !strategyAwardEntities.isEmpty()) return strategyAwardEntities;
         // 从库中获取数据
@@ -76,6 +82,7 @@ public class StrategyRepository implements IStrategyRepository {
     public void storeStrategyAwardSearchRateTable(String key, Integer rateRange, Map<Integer, Integer> strategyAwardSearchRateTable) {
         // 1. 存储抽奖策略范围值，如10000，用于生成1000以内的随机数
         redisService.setValue(Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + key, rateRange);
+        //big_market_strategy_rate_range_key_+策略id
         // 2. 存储概率查找表
         Map<Integer, Integer> cacheRateTable = redisService.getMap(Constants.RedisKey.STRATEGY_RATE_TABLE_KEY + key);
         cacheRateTable.putAll(strategyAwardSearchRateTable);
@@ -103,6 +110,7 @@ public class StrategyRepository implements IStrategyRepository {
     @Override
     public StrategyEntity queryStrategyEntityByStrategyId(Long strategyId) {
         // 优先从缓存获取
+        //big_market_strategy_key_
         String cacheKey = Constants.RedisKey.STRATEGY_KEY + strategyId;
         StrategyEntity strategyEntity = redisService.getValue(cacheKey);
         if (null != strategyEntity) return strategyEntity;

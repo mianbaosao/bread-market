@@ -17,6 +17,7 @@ import java.util.*;
 
 /**
  * @description 策略装配库(兵工厂)，负责初始化策略计算
+ * 装配奖品
  */
 @Slf4j
 @Service
@@ -57,6 +58,8 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
         for (String key : ruleWeightValueMap.keySet()) {
             List<Integer> ruleWeightValues = ruleWeightValueMap.get(key);
             ArrayList<StrategyAwardEntity> strategyAwardEntitiesClone = new ArrayList<>(strategyAwardEntities);
+            //克隆的策略奖品实体列表 strategyAwardEntitiesClone 中移除那些不符合当前权重规则的奖品。具体来说，它会遍历列表
+            //中的每个元素，并移除那些奖品ID不包含在当前权重规则的奖品ID列表 ruleWeightValues 中的元素。
             strategyAwardEntitiesClone.removeIf(entity -> !ruleWeightValues.contains(entity.getAwardId()));
             assembleLotteryStrategy(String.valueOf(strategyId).concat(Constants.UNDERLINE).concat(key), strategyAwardEntitiesClone);
         }
@@ -72,11 +75,22 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
      * 4. 后续的抽奖就用123作为随机数的范围值，生成的值100个都是0.1概率的奖品、20个是概率0.02的奖品、最后是3个是0.003的奖品。
      */
     private void assembleLotteryStrategy(String key, List<StrategyAwardEntity> strategyAwardEntities) {
-        // 1. 获取最小概率值
-        BigDecimal minAwardRate = strategyAwardEntities.stream()
+
+        /*BigDecimal minAwardRate = strategyAwardEntities.stream()
                 .map(StrategyAwardEntity::getAwardRate)
                 .min(BigDecimal::compareTo)
-                .orElse(BigDecimal.ZERO);
+                .orElse(BigDecimal.ZERO);*/
+        // 1. 获取最小概率值
+        BigDecimal minAwardRate = BigDecimal.ZERO;
+        if (!strategyAwardEntities.isEmpty()) {
+            minAwardRate = strategyAwardEntities.get(0).getAwardRate(); // 初始化为第一个元素的 awardRate
+            for (StrategyAwardEntity entity : strategyAwardEntities) {
+                BigDecimal awardRate = entity.getAwardRate();
+                if (awardRate.compareTo(minAwardRate) < 0) {
+                    minAwardRate = awardRate;
+                }
+            }
+        }
 
         // 2. 循环计算找到概率范围值
         BigDecimal rateRange = BigDecimal.valueOf(convert(minAwardRate.doubleValue()));
@@ -102,6 +116,7 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
         }
 
         // 6. 存放到 Redis
+        //此时的key就是策略id
         repository.storeStrategyAwardSearchRateTable(key, shuffleStrategyAwardSearchRateTable.size(), shuffleStrategyAwardSearchRateTable);
     }
 
@@ -126,6 +141,7 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
      * @param awardCount 奖品库存
      */
     private void cacheStrategyAwardCount(Long strategyId, Integer awardId, Integer awardCount) {
+        //strategy_award_count_key_+
         String cacheKey = Constants.RedisKey.STRATEGY_AWARD_COUNT_KEY + strategyId + Constants.UNDERLINE + awardId;
         repository.cacheStrategyAwardCount(cacheKey, awardCount);
     }

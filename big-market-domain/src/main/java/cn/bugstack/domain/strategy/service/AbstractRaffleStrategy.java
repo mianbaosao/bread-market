@@ -17,7 +17,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * @description 抽奖策略抽象类，定义抽奖的标准流程
- * 模板模式
+ * 模板模式实现抽奖
  */
 @Slf4j
 public abstract class AbstractRaffleStrategy implements IRaffleStrategy,IRaffleStock{
@@ -39,6 +39,11 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy,IRaffleS
         this.defaultTreeFactory = defaultTreeFactory;
     }
 
+    /**
+     * 抽奖接口
+     * @param raffleFactorEntity 抽奖因子实体对象，根据入参信息计算抽奖结果
+     * @return
+     */
     @Override
     public RaffleAwardEntity performRaffle(RaffleFactorEntity raffleFactorEntity) {
         // 1. 参数校验
