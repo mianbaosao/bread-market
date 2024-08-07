@@ -86,6 +86,7 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
             minAwardRate = strategyAwardEntities.get(0).getAwardRate(); // 初始化为第一个元素的 awardRate
             for (StrategyAwardEntity entity : strategyAwardEntities) {
                 BigDecimal awardRate = entity.getAwardRate();
+                //两个BigDecimal数值比较大小
                 if (awardRate.compareTo(minAwardRate) < 0) {
                     minAwardRate = awardRate;
                 }
