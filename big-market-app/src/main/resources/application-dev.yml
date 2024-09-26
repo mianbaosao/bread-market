@@ -25,23 +25,69 @@ thread:
         block-queue-size: 5000
         policy: CallerRunsPolicy
 
-# 数据库配置；启动时配置数据库资源信息
-spring:
-  datasource:
-    username: root
-    password: he13140303042
-    url: jdbc:mysql://127.0.0.1:3306/big-market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  hikari:
-    pool-name: Retail_HikariCP
-    minimum-idle: 15 #最小空闲连接数量
-    idle-timeout: 180000 #空闲连接存活最大时间，默认600000（10分钟）
-    maximum-pool-size: 25 #连接池最大连接数，默认是10
-    auto-commit: true  #此属性控制从池返回的连接的默认自动提交行为,默认值：true
-    max-lifetime: 1800000 #此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
-    connection-timeout: 30000 #数据库连接超时时间,默认30秒，即30000
-    connection-test-query: SELECT 1
-  type: com.zaxxer.hikari.HikariDataSource
+
+# 多数据源路由配置，库数量 * 表数量 为2的次幂，如2库4表
+# mysql 5.x 配置 driver-class-name: com.mysql.jdbc.Driver    mysql-connector-java 5.1.34
+# mysql 8.x 配置 driver-class-name: com.mysql.cj.jdbc.Driver mysql-connector-java 8.0.22
+#  dbCount 分几个库，tbCount 分几个表，两个数的乘积为2的次幂。
+#  default 为默认不走分库分表时候路由到哪个库，这里是我们需要的配置库。
+#  routerKey 默认走的路由 Key，一个数据路由，是需要有一个键的，这里选择的是用户ID作为路由计算键。
+#  list: db01,db02 表示分库分表，走那套库。
+#  db0、db1、db2 就是配置的数据库信息了。这里给每个数据库都配置了对应的连接池信息。
+mini-db-router:
+  jdbc:
+    datasource:
+      dbCount: 2
+      tbCount: 4
+      default: db00
+      routerKey: userId
+      list: db01, db02
+      db00:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/big-market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+        username: root
+        password: he13140303042
+        type-class-name: com.zaxxer.hikari.HikariDataSource
+        pool:
+          pool-name: Retail_HikariCP
+          minimum-idle: 15 # 最小空闲连接数量
+          idle-timeout: 180000 # 空闲连接存活最大时间，默认600000（10分钟）
+          maximum-pool-size: 25 # 连接池最大连接数，默认是10
+          auto-commit: true  # 控制从池返回的连接的默认自动提交行为，默认值：true
+          max-lifetime: 1800000 # 池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+          connection-timeout: 30000 # 数据库连接超时时间，默认30秒，即30000
+          connection-test-query: SELECT 1
+      db01:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/big-market-01?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+        username: root
+        password: he13140303042
+        type-class-name: com.zaxxer.hikari.HikariDataSource
+        pool:
+          pool-name: Retail_HikariCP
+          minimum-idle: 15 # 最小空闲连接数量
+          idle-timeout: 180000 # 空闲连接存活最大时间，默认600000（10分钟）
+          maximum-pool-size: 25 # 连接池最大连接数，默认是10
+          auto-commit: true  # 控制从池返回的连接的默认自动提交行为，默认值：true
+          max-lifetime: 1800000 # 池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+          connection-timeout: 30000 # 数据库连接超时时间，默认30秒，即30000
+          connection-test-query: SELECT 1
+      db02:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/big-market-02?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+        username: root
+        password: he13140303042
+        type-class-name: com.zaxxer.hikari.HikariDataSource
+        pool:
+          pool-name: Retail_HikariCP
+          minimum-idle: 15 # 最小空闲连接数量
+          idle-timeout: 180000 # 空闲连接存活最大时间，默认600000（10分钟）
+          maximum-pool-size: 25 # 连接池最大连接数，默认是10
+          auto-commit: true  # 控制从池返回的连接的默认自动提交行为，默认值：true
+          max-lifetime: 1800000 # 池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+          connection-timeout: 30000 # 数据库连接超时时间，默认30秒，即30000
+          connection-test-query: SELECT 1
+
 
 mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
