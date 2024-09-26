@@ -61,10 +61,12 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.22</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/cn.bugstack.middleware/db-router-spring-boot-starter -->
+
             <dependency>
                 <groupId>cn.bugstack.middleware</groupId>
                 <artifactId>db-router-spring-boot-starter</artifactId>
-                <version>1.0.1-SNAPSHOT</version>
+                <version>1.0.2</version>
             </dependency>
             <dependency>
                 <groupId>org.jeasy</groupId>
