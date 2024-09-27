@@ -1,4 +1,4 @@
-package cn.bugstack.test.domain;
+package cn.bugstack.test.domain.strategy;
 
 import cn.bugstack.domain.strategy.service.armory.IStrategyArmory;
 import cn.bugstack.domain.strategy.service.armory.IStrategyDispatch;
@@ -15,7 +15,9 @@ import javax.annotation.Resource;
 import java.util.*;
 
 /**
+ * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 策略领域测试
+ * @create 2023-12-23 11:33
  */
 @Slf4j
 @RunWith(SpringRunner.class)
@@ -33,7 +35,7 @@ public class StrategyTest {
      */
     @Before
     public void test_strategyArmory() {
-        boolean success = strategyArmory.assembleLotteryStrategy(100001L);
+        boolean success = strategyArmory.assembleLotteryStrategy(100005L);
         log.info("测试结果：{}", success);
     }
 

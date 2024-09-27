@@ -4,6 +4,7 @@
 
     <resultMap id="dataMap" type="cn.bugstack.infrastructure.persistent.po.RaffleActivityAccount">
         <id column="id" property="id"/>
+
         <result column="create_time" property="createTime"/>
         <result column="update_time" property="updateTime"/>
     </resultMap>
