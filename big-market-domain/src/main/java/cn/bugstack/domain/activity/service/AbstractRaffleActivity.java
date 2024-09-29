@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @description 抽奖活动抽象类，定义标准的流程
+ * 模板模式+建造者模式
  */
 @Slf4j
 public abstract class AbstractRaffleActivity implements IRaffleOrder {
@@ -27,7 +28,7 @@ public abstract class AbstractRaffleActivity implements IRaffleOrder {
         ActivityCountEntity activityCountEntity = activityRepository.queryRaffleActivityCountByActivityCountId(activitySkuEntity.getActivityCountId());
 
         log.info("查询结果：{} {} {}", JSON.toJSONString(activitySkuEntity), JSON.toJSONString(activityEntity), JSON.toJSONString(activityCountEntity));
-
+        //建造者模式创建对象
         return ActivityOrderEntity.builder().build();
     }
 
