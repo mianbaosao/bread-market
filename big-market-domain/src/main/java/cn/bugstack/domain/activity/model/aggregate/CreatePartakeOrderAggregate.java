@@ -57,5 +57,4 @@ public class CreatePartakeOrderAggregate {
      * 抽奖单实体
      */
     private UserRaffleOrderEntity userRaffleOrderEntity;
-
 }

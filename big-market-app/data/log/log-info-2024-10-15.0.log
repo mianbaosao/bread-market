@@ -1,0 +1,247 @@
+24-10-15.17:27:20.465 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 42120 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.17:27:20.466 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.17:27:21.257 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.17:27:21.258 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.17:27:21.292 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+24-10-15.17:27:21.679 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c187aa00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:27:21.835 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb1bebd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:27:23.151 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.17:27:25.352 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:27:25.363 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:27:27.611 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.17:27:27.667 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.17:27:27.735 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.623 seconds (JVM running for 8.405)
+24-10-15.17:27:27.962 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.17:29:41.779 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 41784 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.17:29:41.779 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.17:29:42.596 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.17:29:42.598 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.17:29:42.637 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-15.17:29:43.040 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$eb604f9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:29:43.111 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24f4916f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:29:44.272 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.17:29:45.485 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:29:45.499 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:29:47.871 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.17:29:47.937 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.17:29:48.003 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 6.56 seconds (JVM running for 7.362)
+24-10-15.17:29:48.177 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.17:31:19.631 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 17992 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.17:31:19.631 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.17:31:20.464 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.17:31:20.465 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.17:31:20.502 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+24-10-15.17:31:20.910 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c187aa00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:31:20.992 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb1bebd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:31:22.083 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.17:31:23.386 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:31:23.402 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:31:25.568 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.17:31:25.633 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.17:31:25.706 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 6.398 seconds (JVM running for 7.244)
+24-10-15.17:31:25.896 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.17:35:06.210 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 40492 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.17:35:06.211 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.17:35:07.159 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.17:35:07.161 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.17:35:07.201 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+24-10-15.17:35:07.617 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$cfc0871c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:35:07.692 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$954c8ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.17:35:09.144 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.17:35:11.363 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:35:11.373 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.17:35:13.929 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.17:35:13.986 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.17:35:14.046 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 8.153 seconds (JVM running for 8.945)
+24-10-15.17:35:14.240 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.18:18:00.197 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 42784 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.18:18:00.198 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.18:18:02.274 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.18:18:02.277 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.18:18:02.322 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+24-10-15.18:18:02.819 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$455086f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:18:02.903 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ee4c8c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:18:04.356 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.18:18:05.840 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:18:05.856 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:18:08.452 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.18:18:08.534 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.18:18:08.605 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 8.896 seconds (JVM running for 10.433)
+24-10-15.18:18:23.041 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:18:43.613 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:18:43.634 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.18:18:46.704 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 43156 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.18:18:46.705 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.18:18:47.581 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.18:18:47.583 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.18:18:47.624 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+24-10-15.18:18:48.063 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9b2864e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:18:48.144 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4bca6b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:18:49.346 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.18:18:51.133 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:18:51.145 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:18:53.490 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.18:18:53.559 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.18:18:53.622 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.377 seconds (JVM running for 8.417)
+24-10-15.18:20:33.567 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:30:26.762 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:30:26.791 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.18:30:30.596 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 23532 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.18:30:30.596 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.18:30:31.412 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.18:30:31.414 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.18:30:31.457 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+24-10-15.18:30:31.903 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$89dfe293] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:30:31.985 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3742465] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:30:33.136 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.18:30:34.442 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:30:34.453 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:30:36.840 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.18:30:36.906 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.18:30:36.969 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 6.779 seconds (JVM running for 7.798)
+24-10-15.18:30:37.134 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.18:58:39.043 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 20204 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.18:58:39.043 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.18:58:39.857 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.18:58:39.859 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.18:58:39.896 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+24-10-15.18:58:40.337 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4253f39a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:58:40.419 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7be8356c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:58:41.759 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.18:58:42.993 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:58:43.005 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:58:45.534 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.18:58:45.608 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.18:58:45.689 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.127 seconds (JVM running for 8.126)
+24-10-15.18:58:56.408 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:59:05.536 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:59:05.567 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.18:59:08.554 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 39648 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.18:59:08.555 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.18:59:09.421 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.18:59:09.423 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.18:59:09.464 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-15.18:59:09.910 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d8ad02c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:59:09.991 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1241449a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:59:11.313 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.18:59:13.390 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:59:13.402 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:59:15.979 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.18:59:16.047 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.18:59:16.108 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.959 seconds (JVM running for 9.01)
+24-10-15.18:59:20.226 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:59:39.998 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:59:40.020 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.18:59:42.983 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 8488 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.18:59:42.984 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.18:59:43.824 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.18:59:43.826 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.18:59:43.867 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-15.18:59:44.309 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f6db0e51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:59:44.388 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$306f5023] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.18:59:45.496 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.18:59:47.340 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:59:47.353 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.18:59:49.740 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.18:59:49.813 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.18:59:49.876 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.293 seconds (JVM running for 8.317)
+24-10-15.18:59:50.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.18:59:50.051 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.19:01:18.038 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 44164 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.19:01:18.039 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.19:01:18.853 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.19:01:18.855 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.19:01:18.898 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-15.19:01:19.368 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9de0d648] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:01:19.460 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d775181a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:01:20.605 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.19:01:21.753 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:01:21.764 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:01:24.191 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.19:01:24.261 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.19:01:24.338 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 6.703 seconds (JVM running for 7.563)
+24-10-15.19:01:24.485 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-15.19:01:25.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:01:25.267 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-15.19:01:25.333 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-15.19:01:25.357 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-15.19:01:25.679 [main            ] INFO  RaffleActivityPartakeServiceTest - 请求参数：{"activityId":100301,"userId":"xiaofuge"}
+24-10-15.19:01:25.685 [main            ] INFO  RaffleActivityPartakeServiceTest - 测试结果：{"activityId":100301,"activityName":"测试活动","orderId":"560682624450","orderState":"create","orderTime":1728990084451,"strategyId":100006,"userId":"xiaofuge"}
+24-10-15.19:01:25.697 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.19:01:56.031 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 2076 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.19:01:56.032 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.19:01:56.952 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.19:01:56.954 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.19:01:56.994 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-15.19:01:57.431 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$eb604f9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:01:57.511 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24f4916f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:01:58.670 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.19:02:00.441 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:02:00.458 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:02:02.937 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.19:02:02.995 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.19:02:03.058 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.601 seconds (JVM running for 8.723)
+24-10-15.19:02:03.272 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-15.19:02:04.062 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-15.19:02:04.101 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.19:03:07.861 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 44932 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.19:03:07.862 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.19:03:08.725 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.19:03:08.727 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.19:03:08.775 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+24-10-15.19:03:09.179 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8f3d10a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:03:09.249 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8d1527b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:03:10.355 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.19:03:11.954 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:03:11.967 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:03:14.183 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.19:03:14.236 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.19:03:14.297 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 6.751 seconds (JVM running for 7.523)
+24-10-15.19:03:14.478 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-15.19:03:15.016 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:03:15.133 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-15.19:03:15.313 [main            ] INFO  RaffleActivityPartakeServiceTest - 请求参数：{"activityId":100301,"userId":"mianbao"}
+24-10-15.19:03:15.319 [main            ] INFO  RaffleActivityPartakeServiceTest - 测试结果：{"activityId":100301,"activityName":"测试活动","orderId":"927800442608","orderState":"create","orderTime":1728990194405,"strategyId":100006,"userId":"mianbao"}
+24-10-15.19:03:15.330 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.19:15:07.190 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 13888 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.19:15:07.191 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.19:15:08.009 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.19:15:08.011 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.19:15:08.048 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+24-10-15.19:15:08.481 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$857e314c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:15:08.558 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf12731e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:15:10.313 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.19:15:11.718 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:15:11.730 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:15:14.234 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.19:15:14.303 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.19:15:14.369 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.618 seconds (JVM running for 8.514)
+24-10-15.19:15:17.314 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:15:37.779 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-15.19:15:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:15:40.982 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-15.19:17:07.094 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:17:07.097 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m56s112ms382µs600ns).
+24-10-15.19:17:07.162 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-15.19:17:10.382 [main            ] INFO  RaffleActivityPartakeServiceTest - Starting RaffleActivityPartakeServiceTest on Bread with PID 43784 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-15.19:17:10.382 [main            ] INFO  RaffleActivityPartakeServiceTest - The following profiles are active: dev
+24-10-15.19:17:11.209 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-15.19:17:11.211 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-15.19:17:11.248 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+24-10-15.19:17:11.699 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3ad32e2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:17:11.789 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$74676ffc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-15.19:17:13.162 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-15.19:17:14.683 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:17:14.693 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-15.19:17:17.152 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-15.19:17:17.218 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-15.19:17:17.281 [main            ] INFO  RaffleActivityPartakeServiceTest - Started RaffleActivityPartakeServiceTest in 7.304 seconds (JVM running for 8.265)
+24-10-15.19:17:48.261 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:17:56.691 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-15.19:18:00.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:18:00.054 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-15.19:18:12.925 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:28:37.474 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:28:37.474 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=10m24s548ms311µs900ns).
+24-10-15.19:28:44.493 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-15.19:28:44.550 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
