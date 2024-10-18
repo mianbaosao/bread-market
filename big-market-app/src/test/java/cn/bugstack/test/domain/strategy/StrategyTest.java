@@ -15,9 +15,7 @@ import javax.annotation.Resource;
 import java.util.*;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 策略领域测试
- * @create 2023-12-23 11:33
  */
 @Slf4j
 @RunWith(SpringRunner.class)
