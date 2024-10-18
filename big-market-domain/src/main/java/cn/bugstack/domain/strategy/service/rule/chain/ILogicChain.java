@@ -4,6 +4,7 @@ import cn.bugstack.domain.strategy.service.rule.chain.factory.DefaultChainFactor
 
 /**
  * @description 抽奖策略规则责任链接口
+ * 放置的是责任链的主要方法
  */
 public interface ILogicChain extends ILogicChainArmory {
 
