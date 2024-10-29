@@ -1,0 +1,188 @@
+24-10-23.19:40:46.598 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 44504 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-23.19:40:46.599 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-10-23.19:40:48.867 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-23.19:40:48.870 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-23.19:40:48.928 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+24-10-23.19:40:49.407 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$b03b22d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.19:40:49.501 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4497f3ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.19:40:51.221 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-23.19:40:53.132 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.19:40:53.160 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.19:40:55.772 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-23.19:40:55.847 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-23.19:40:55.934 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-23.19:40:56.019 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3a40bb52:0/SimpleConnection@6dd38df2 [delegate=amqp://bread@127.0.0.1:5672/, localPort= 62964]
+24-10-23.19:40:56.154 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 9.999 seconds (JVM running for 11.31)
+24-10-23.19:40:56.334 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:100
+24-10-23.19:40:56.335 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-10-23.19:40:56.336 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:100
+24-10-23.19:40:56.360 [main            ] WARN  RuleStockLogicTreeNode - 规则过滤-库存扣减-告警，库存不足。userId:xiaofuge strategyId:100001 awardId:100
+24-10-23.19:40:56.360 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0000
+24-10-23.19:40:56.481 [main            ] INFO  LogicTreeTest          - 测试结果：null
+24-10-23.19:40:56.490 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-23.19:40:57.152 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-23.19:40:57.154 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-23.19:40:58.161 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-23.19:40:58.164 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-23.19:40:58.165 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-23.19:40:58.165 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-23.20:42:03.265 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 32132 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-23.20:42:03.266 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-10-23.20:42:06.061 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-23.20:42:06.064 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-23.20:42:06.118 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+24-10-23.20:42:06.559 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$cd36bf0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:42:06.652 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cb00de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:42:08.381 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-23.20:42:10.222 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:42:10.239 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:42:12.806 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-23.20:42:12.871 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-23.20:42:12.951 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-23.20:42:13.017 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6aea99e7:0/SimpleConnection@248b2b61 [delegate=amqp://bread@127.0.0.1:5672/, localPort= 54216]
+24-10-23.20:42:13.121 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 10.435 seconds (JVM running for 11.576)
+24-10-23.20:42:13.327 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:42:14.315 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:42:14.629 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:42:14.666 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:42:14.672 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 104
+24-10-23.20:42:14.674 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 104 rule_default
+24-10-23.20:42:14.729 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:104
+24-10-23.20:42:14.730 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:104
+24-10-23.20:42:14.749 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树-兜底奖励】treeId:tree_luck_award node:rule_stock code:0001
+24-10-23.20:42:14.749 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 104 null
+24-10-23.20:42:14.891 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-10-23.20:42:14.893 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104,"sort":4}
+24-10-23.20:42:15.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:15.012 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:42:15.012 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:42:15.028 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:42:15.029 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:42:20.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:20.020 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:104
+24-10-23.20:42:25.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:30.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:35.015 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:40.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:45.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:50.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:42:55.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:00.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:05.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:10.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:15.012 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:20.015 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:25.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:30.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:35.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:40.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:45.674 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 37400 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-23.20:43:45.675 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-10-23.20:43:47.193 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-23.20:43:47.194 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-23.20:43:47.237 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+24-10-23.20:43:47.683 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$80b9910c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:43:47.754 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba4dd2de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:43:49.239 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-23.20:43:50.966 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:43:50.986 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:43:53.387 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-23.20:43:53.463 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-23.20:43:53.532 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-23.20:43:53.581 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#42a0786f:0/SimpleConnection@4ca5cb99 [delegate=amqp://bread@127.0.0.1:5672/, localPort= 62602]
+24-10-23.20:43:53.637 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.291 seconds (JVM running for 9.476)
+24-10-23.20:43:53.923 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:43:54.630 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:43:54.686 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:43:54.699 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:43:54.705 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 108
+24-10-23.20:43:54.707 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 108 rule_default
+24-10-23.20:43:54.742 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100006 awardId:108
+24-10-23.20:43:54.743 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock_2 node:rule_lock code:0000
+24-10-23.20:43:54.763 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-23.20:43:55.013 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:43:55.013 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:43:55.017 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:43:55.026 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:43:55.028 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:43:55.634 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-23.20:43:55.634 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-23.20:43:55.647 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-23.20:43:55.650 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-23.20:43:55.650 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-23.20:43:55.650 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-23.20:44:07.945 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 31960 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-23.20:44:07.945 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-10-23.20:44:08.803 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-23.20:44:08.805 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-23.20:44:08.894 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+24-10-23.20:44:09.309 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$73efe2c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:44:09.377 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad842497] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:44:10.505 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-23.20:44:12.129 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:44:12.139 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:44:14.420 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-23.20:44:14.486 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-23.20:44:14.559 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-23.20:44:14.616 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#565d7d2f:0/SimpleConnection@55881f40 [delegate=amqp://bread@127.0.0.1:5672/, localPort= 62776]
+24-10-23.20:44:14.707 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 7.126 seconds (JVM running for 7.892)
+24-10-23.20:44:14.979 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:44:15.018 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:44:15.024 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:44:15.024 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:44:15.794 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:44:15.794 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:44:15.794 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:44:15.858 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:44:15.870 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:44:15.876 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 103
+24-10-23.20:44:15.878 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 103 rule_default
+24-10-23.20:44:15.901 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:103
+24-10-23.20:44:15.906 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:103
+24-10-23.20:44:15.949 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树-兜底奖励】treeId:tree_luck_award node:rule_stock code:0001
+24-10-23.20:44:15.949 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 103 null
+24-10-23.20:44:16.132 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-10-23.20:44:16.134 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103,"sort":3}
+24-10-23.20:44:20.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:44:20.016 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:103
+24-10-23.20:44:25.015 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:44:30.021 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:45:42.660 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest on Bread with PID 41048 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-23.20:45:42.661 [main            ] INFO  RaffleStrategyTest     - The following profiles are active: dev
+24-10-23.20:45:43.515 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-23.20:45:43.517 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-23.20:45:43.564 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+24-10-23.20:45:43.957 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8bf07da0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:45:44.028 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c584bf72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-23.20:45:45.078 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-23.20:45:46.498 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:45:46.508 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-23.20:45:48.795 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-23.20:45:48.852 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-23.20:45:48.913 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-23.20:45:48.960 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7bd38fed:0/SimpleConnection@248b2b61 [delegate=amqp://bread@127.0.0.1:5672/, localPort= 50346]
+24-10-23.20:45:49.040 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.711 seconds (JVM running for 7.491)
+24-10-23.20:45:49.187 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:45:49.807 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:45:50.017 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:45:50.026 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:45:50.026 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-23.20:45:50.053 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:45:50.053 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-23.20:45:50.062 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:45:50.083 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-23.20:45:50.109 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 104
+24-10-23.20:45:50.110 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 104 rule_default
+24-10-23.20:45:50.135 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:104
+24-10-23.20:45:50.137 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:104
+24-10-23.20:45:50.154 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树-兜底奖励】treeId:tree_luck_award node:rule_stock code:0001
+24-10-23.20:45:50.154 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 104 null
+24-10-23.20:45:50.303 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-10-23.20:45:50.305 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":104,"sort":4}
+24-10-23.20:45:55.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:45:55.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:104
+24-10-23.20:46:00.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:46:05.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:46:10.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:46:15.015 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-23.20:46:20.027 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】

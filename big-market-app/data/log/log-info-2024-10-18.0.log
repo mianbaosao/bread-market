@@ -1,16 +1,16 @@
-24-10-24.21:39:23.097 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 36400 (started by Lenovo in E:\big-market\big-market\big-market-app)
-24-10-24.21:39:23.097 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
-24-10-24.21:39:26.257 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-24-10-24.21:39:26.262 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-24-10-24.21:39:26.327 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
-24-10-24.21:39:26.771 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$24516725] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:39:26.864 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5de5a8f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:39:28.476 [main            ] INFO  Version                - Redisson 3.23.4
-24-10-24.21:39:41.268 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'raffleController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRaffleStrategy' defined in file [E:\big-market\big-market\big-market-domain\target\classes\cn\bugstack\domain\strategy\service\raffle\DefaultRaffleStrategy.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
-24-10-24.21:39:41.278 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+24-10-18.21:45:47.407 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 8516 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-18.21:45:47.408 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-10-18.21:45:49.676 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-18.21:45:49.679 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-18.21:45:49.737 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+24-10-18.21:45:50.184 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$579854e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.21:45:50.270 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$912c96b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.21:45:52.059 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-18.21:46:05.100 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'raffleController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRaffleStrategy' defined in file [E:\big-market\big-market\big-market-domain\target\classes\cn\bugstack\domain\strategy\service\raffle\DefaultRaffleStrategy.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+24-10-18.21:46:05.107 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-24-10-24.21:39:41.282 [main            ] ERROR SpringApplication      - Application run failed
+24-10-18.21:46:05.110 [main            ] ERROR SpringApplication      - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'raffleController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultRaffleStrategy' defined in file [E:\big-market\big-market\big-market-domain\target\classes\cn\bugstack\domain\strategy\service\raffle\DefaultRaffleStrategy.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [cn/bugstack/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:324)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
@@ -171,7 +171,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-24-10-24.21:39:41.286 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4241e0f4] to prepare test instance [cn.bugstack.test.domain.strategy.LogicTreeTest@36e3321e]
+24-10-18.21:46:05.114 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4241e0f4] to prepare test instance [cn.bugstack.test.domain.strategy.LogicTreeTest@7bda01da]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
@@ -335,22 +335,22 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-24-10-24.21:40:02.138 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 42580 (started by Lenovo in E:\big-market\big-market\big-market-app)
-24-10-24.21:40:02.139 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
-24-10-24.21:40:03.003 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-24-10-24.21:40:03.005 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-24-10-24.21:40:03.050 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
-24-10-24.21:40:03.475 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4f54e21c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:40:03.556 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88e923ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:40:04.694 [main            ] INFO  Version                - Redisson 3.23.4
-24-10-24.21:40:06.168 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.21:40:06.180 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.21:40:08.742 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-24-10-24.21:40:08.811 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
-24-10-24.21:40:08.886 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:10.962 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
-24-10-24.21:40:10.971 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:13.018 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:48:23.447 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 19440 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-18.21:48:23.448 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-10-18.21:48:24.336 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-18.21:48:24.338 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-18.21:48:24.387 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-18.21:48:24.811 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8fb16240] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.21:48:24.900 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c945a412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.21:48:26.335 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-18.21:48:28.183 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-18.21:48:28.230 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-18.21:48:30.837 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-18.21:48:30.909 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-18.21:48:30.987 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:33.044 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
+24-10-18.21:48:33.053 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:35.110 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -378,11 +378,11 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:40:13.022 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:15.083 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:17.125 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
-24-10-24.21:40:17.126 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:19.177 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:48:35.117 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:37.189 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:39.253 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
+24-10-18.21:48:39.253 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:41.307 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -410,14 +410,14 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:40:19.177 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:20.155 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:40:20.156 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@2cfd9b0a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:40:21.233 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:21.245 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 19.49 seconds (JVM running for 20.372)
-24-10-24.21:40:21.408 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:100
-24-10-24.21:40:43.133 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:40:43.133 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:48:41.308 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:42.349 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:48:42.353 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@39b9dc35: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:48:43.363 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:48:43.377 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 20.306 seconds (JVM running for 21.313)
+24-10-18.21:48:50.521 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:48:50.521 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@5ab06829: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:48:50.522 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -445,13 +445,10 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:40:43.135 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:40:43.137 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@51d9479c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:40:44.359 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
-24-10-24.21:41:07.223 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:41:22.118 [SimpleAsyncTaskExecutor-2] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:41:50.478 [SimpleAsyncTaskExecutor-2] INFO  SimpleMessageListenerContainer - Restarting Consumer@30393a19: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:41:50.482 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:50:01.370 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:51:10.785 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:51:30.943 [SimpleAsyncTaskExecutor-2] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:51:30.942 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -479,12 +476,29 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:41:50.483 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:42:12.170 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:42:20.404 [SimpleAsyncTaskExecutor-2] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:42:20.405 [SimpleAsyncTaskExecutor-2] INFO  SimpleMessageListenerContainer - Restarting Consumer@ac3dfff: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:42:24.277 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:42:24.277 [SimpleAsyncTaskExecutor-3] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:51:40.728 [SimpleAsyncTaskExecutor-2] INFO  SimpleMessageListenerContainer - Restarting Consumer@3dbc10d0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:51:40.728 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:51:40.730 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.21:51:40.746 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-10-18.21:51:40.751 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.21:51:40.782 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.21:51:40.831 [main            ] WARN  RuleStockLogicTreeNode - 规则过滤-库存扣减-告警，库存不足。userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.21:51:40.831 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0000
+24-10-18.21:51:42.296 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-18.21:51:42.297 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-18.21:51:42.756 [main            ] INFO  LogicTreeTest          - 测试结果：null
+24-10-18.21:51:43.903 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:51:47.364 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.21:51:47.383 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-18.21:51:47.383 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-18.21:51:47.384 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-18.21:51:47.384 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-18.21:51:47.387 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-18.21:51:47.388 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-18.21:51:47.388 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-18.21:51:47.615 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-18.21:51:47.615 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-18.21:51:49.385 [SimpleAsyncTaskExecutor-3] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -512,8 +526,22 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:42:27.692 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:42:27.691 [SimpleAsyncTaskExecutor-3] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:53:55.655 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 30248 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-18.21:53:55.655 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-10-18.21:53:56.496 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-18.21:53:56.507 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-18.21:53:56.549 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+24-10-18.21:53:56.959 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6ff0677e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.21:53:57.040 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a984a950] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.21:53:58.333 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-18.21:54:00.163 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-18.21:54:00.179 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-18.21:54:02.781 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-18.21:54:02.849 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-18.21:54:02.931 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:04.971 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
+24-10-18.21:54:04.981 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:07.021 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -541,13 +569,11 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:42:33.800 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:42:42.113 [SimpleAsyncTaskExecutor-3] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:42:42.114 [SimpleAsyncTaskExecutor-3] INFO  SimpleMessageListenerContainer - Restarting Consumer@74fc9517: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:44:02.006 [SimpleAsyncTaskExecutor-3] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:44:02.008 [SimpleAsyncTaskExecutor-3] INFO  SimpleMessageListenerContainer - Restarting Consumer@6b33351e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:44:02.011 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:44:08.207 [SimpleAsyncTaskExecutor-4] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:54:07.027 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:09.079 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:11.128 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
+24-10-18.21:54:11.129 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:13.173 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -575,10 +601,109 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:44:08.208 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:44:23.499 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:44:24.113 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:100
-24-10-24.21:44:02.006 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x1a602cec, L:/127.0.0.1:61992 - R:127.0.0.1/127.0.0.1:6379]
+24-10-18.21:54:13.173 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:14.153 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:54:14.157 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@75d95b67: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:54:15.225 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:54:15.239 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 20.003 seconds (JVM running for 20.921)
+24-10-18.21:55:09.460 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+24-10-18.21:55:09.461 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:55:09.463 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:55:09.463 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@7e7987b8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:55:29.808 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:56:08.454 [SimpleAsyncTaskExecutor-2] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:56:08.455 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+24-10-18.21:56:08.457 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:56:08.457 [SimpleAsyncTaskExecutor-2] INFO  SimpleMessageListenerContainer - Restarting Consumer@4f47a66c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:56:50.941 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:57:25.871 [SimpleAsyncTaskExecutor-2] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:57:25.871 [SimpleAsyncTaskExecutor-3] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+24-10-18.21:57:25.871 [SimpleAsyncTaskExecutor-2] INFO  SimpleMessageListenerContainer - Restarting Consumer@19329286: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:57:25.871 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:57:25.877 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.21:57:48.179 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:56:10.042 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x1fa4e0a9, L:/127.0.0.1:61099 - R:127.0.0.1/127.0.0.1:6379]
 org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
 	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
 	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
@@ -586,7 +711,39 @@ org.redisson.client.RedisTimeoutException: Command execution timeout for command
 	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-24-10-24.21:44:24.120 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x3588fd47, L:/127.0.0.1:61994 - R:127.0.0.1/127.0.0.1:6379]
+24-10-18.21:57:52.539 [SimpleAsyncTaskExecutor-3] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+24-10-18.21:57:52.540 [SimpleAsyncTaskExecutor-3] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:57:52.543 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-10-18.21:58:51.639 [SimpleAsyncTaskExecutor-3] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:58:51.640 [SimpleAsyncTaskExecutor-3] INFO  SimpleMessageListenerContainer - Restarting Consumer@1c51b67f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:58:51.644 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x645695a5, L:/127.0.0.1:61098 - R:127.0.0.1/127.0.0.1:6379]
 org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
 	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
 	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
@@ -594,7 +751,7 @@ org.redisson.client.RedisTimeoutException: Command execution timeout for command
 	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-24-10-24.21:44:24.121 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x511695fa, L:/127.0.0.1:61996 - R:127.0.0.1/127.0.0.1:6379]
+24-10-18.21:58:51.644 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xe4acb40c, L:/127.0.0.1:61100 - R:127.0.0.1/127.0.0.1:6379]
 org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
 	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
 	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
@@ -602,13 +759,26 @@ org.redisson.client.RedisTimeoutException: Command execution timeout for command
 	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-24-10-24.21:44:24.134 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-24-10-24.21:44:24.134 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-24-10-24.21:44:24.150 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
-24-10-24.21:44:24.194 [main            ] WARN  RuleStockLogicTreeNode - 规则过滤-库存扣减-告警，库存不足。userId:xiaofuge strategyId:100001 awardId:100
-24-10-24.21:44:40.553 [SimpleAsyncTaskExecutor-4] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:44:40.554 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
-24-10-24.21:44:40.553 [SimpleAsyncTaskExecutor-4] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:58:51.645 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:58:51.647 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x5bdfbf84, L:/127.0.0.1:61101 - R:127.0.0.1/127.0.0.1:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-10-18.21:58:51.647 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xe591b87d, L:/127.0.0.1:61102 - R:127.0.0.1/127.0.0.1:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-10-18.21:59:23.505 [SimpleAsyncTaskExecutor-3] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.21:59:23.506 [SimpleAsyncTaskExecutor-3] INFO  SimpleMessageListenerContainer - Restarting Consumer@2eea53a0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.21:59:23.506 [SimpleAsyncTaskExecutor-4] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -636,13 +806,11 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:44:40.554 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:44:40.553 [SimpleAsyncTaskExecutor-4] INFO  SimpleMessageListenerContainer - Restarting Consumer@1ee6190f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:44:46.848 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:44:46.853 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0000
-24-10-24.21:44:55.560 [SimpleAsyncTaskExecutor-4] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:44:55.560 [SimpleAsyncTaskExecutor-4] INFO  SimpleMessageListenerContainer - Restarting Consumer@5d50c415: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:44:55.560 [SimpleAsyncTaskExecutor-5] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.21:59:23.506 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.21:59:26.534 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:00:05.701 [SimpleAsyncTaskExecutor-4] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:00:05.701 [SimpleAsyncTaskExecutor-4] INFO  SimpleMessageListenerContainer - Restarting Consumer@7c7bfcf4: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:00:05.702 [SimpleAsyncTaskExecutor-4] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -670,12 +838,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:44:55.562 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
-24-10-24.21:44:55.562 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:44:58.359 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:45:04.524 [SimpleAsyncTaskExecutor-5] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:45:04.524 [SimpleAsyncTaskExecutor-5] INFO  SimpleMessageListenerContainer - Restarting Consumer@28043892: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:45:04.525 [SimpleAsyncTaskExecutor-5] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:00:05.703 [SimpleAsyncTaskExecutor-4] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:00:05.704 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xa264761f, L:/127.0.0.1:61103 - R:127.0.0.1/127.0.0.1:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-10-18.22:00:08.825 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:00:24.011 [SimpleAsyncTaskExecutor-4] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:00:24.011 [SimpleAsyncTaskExecutor-5] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -703,8 +877,10 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:45:04.526 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:45:15.008 [SimpleAsyncTaskExecutor-6] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:00:24.013 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:00:24.013 [SimpleAsyncTaskExecutor-4] INFO  SimpleMessageListenerContainer - Restarting Consumer@153424aa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:00:40.831 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:00:44.099 [SimpleAsyncTaskExecutor-5] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -732,16 +908,21 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:45:15.008 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:45:30.987 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
-24-10-24.21:45:36.675 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:45:45.701 [SimpleAsyncTaskExecutor-5] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:45:45.702 [SimpleAsyncTaskExecutor-5] INFO  SimpleMessageListenerContainer - Restarting Consumer@55408dfa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:45:47.121 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
-24-10-24.21:45:47.556 [main            ] INFO  LogicTreeTest          - 测试结果：null
-24-10-24.21:45:48.717 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:45:50.843 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
-24-10-24.21:45:50.843 [SimpleAsyncTaskExecutor-6] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:00:44.100 [SimpleAsyncTaskExecutor-5] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:01:23.828 [SimpleAsyncTaskExecutor-5] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:01:23.829 [SimpleAsyncTaskExecutor-5] INFO  SimpleMessageListenerContainer - Restarting Consumer@5d960599: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:01:24.622 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:01:34.830 [SimpleAsyncTaskExecutor-5] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:01:34.831 [SimpleAsyncTaskExecutor-5] INFO  SimpleMessageListenerContainer - Restarting Consumer@6ef3977d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:01:34.833 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x8e9a8c21, L:/127.0.0.1:49878 - R:127.0.0.1/127.0.0.1:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-10-18.22:01:37.109 [SimpleAsyncTaskExecutor-6] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -769,35 +950,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:45:50.843 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:45:54.156 [SimpleAsyncTaskExecutor-6] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:45:54.156 [SimpleAsyncTaskExecutor-6] INFO  SimpleMessageListenerContainer - Restarting Consumer@3e9e112a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:45:54.170 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
-24-10-24.21:45:54.170 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
-24-10-24.21:45:54.170 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
-24-10-24.21:45:54.170 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
-24-10-24.21:45:54.175 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-24-10-24.21:45:54.176 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
-24-10-24.21:45:54.176 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
-24-10-24.21:45:54.386 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-24-10-24.21:45:54.386 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-24-10-24.21:45:56.185 [SimpleAsyncTaskExecutor-7] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:01.367 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 32024 (started by Lenovo in E:\big-market\big-market\big-market-app)
-24-10-24.21:46:01.368 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
-24-10-24.21:46:02.113 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-24-10-24.21:46:02.116 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-24-10-24.21:46:02.162 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
-24-10-24.21:46:02.592 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$933d901b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:46:02.672 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccd1d1ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:46:03.834 [main            ] INFO  Version                - Redisson 3.23.4
-24-10-24.21:46:05.343 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.21:46:05.358 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.21:46:07.575 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-24-10-24.21:46:07.630 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
-24-10-24.21:46:07.698 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:09.747 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
-24-10-24.21:46:09.757 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:11.809 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:01:37.109 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:01:57.227 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:01:57.227 [SimpleAsyncTaskExecutor-6] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -825,11 +980,29 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:46:11.814 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:13.835 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:15.900 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
-24-10-24.21:46:15.900 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:17.954 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:01:57.229 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xf5d19407, L:/127.0.0.1:49903 - R:127.0.0.1/127.0.0.1:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-10-18.22:01:58.741 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.22:01:58.744 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:01:58.752 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-18.22:01:58.752 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-18.22:01:58.757 [main            ] WARN  RuleStockLogicTreeNode - 规则过滤-库存扣减-告警，库存不足。userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.22:01:59.683 [SimpleAsyncTaskExecutor-6] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:02:00.364 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:02:00.676 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0000
+24-10-18.22:02:09.218 [SimpleAsyncTaskExecutor-6] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:02:09.218 [SimpleAsyncTaskExecutor-6] INFO  SimpleMessageListenerContainer - Restarting Consumer@74874e06: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:02:09.219 [SimpleAsyncTaskExecutor-6] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:02:09.220 [SimpleAsyncTaskExecutor-7] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:02:09.220 [SimpleAsyncTaskExecutor-6] INFO  SimpleMessageListenerContainer - Restarting Consumer@6c465c9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:02:09.221 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:02:11.734 [SimpleAsyncTaskExecutor-7] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -857,25 +1030,14 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:46:17.954 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:18.913 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:46:18.915 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@1efcba00: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:46:20.006 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:46:20.022 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 19.043 seconds (JVM running for 19.852)
-24-10-24.21:46:20.123 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:100
-24-10-24.21:46:20.124 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
-24-10-24.21:46:20.124 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:100
-24-10-24.21:46:20.144 [main            ] WARN  RuleStockLogicTreeNode - 规则过滤-库存扣减-告警，库存不足。userId:xiaofuge strategyId:100001 awardId:100
-24-10-24.21:46:20.144 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0000
-24-10-24.21:46:20.268 [main            ] INFO  LogicTreeTest          - 测试结果：null
-24-10-24.21:46:20.275 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
-24-10-24.21:46:20.275 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
-24-10-24.21:46:20.275 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
-24-10-24.21:46:20.275 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
-24-10-24.21:46:20.278 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-24-10-24.21:46:20.279 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
-24-10-24.21:46:20.279 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
-24-10-24.21:46:22.046 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:02:11.735 [SimpleAsyncTaskExecutor-7] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:02:12.443 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:02:14.119 [SimpleAsyncTaskExecutor-7] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:02:17.244 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:02:17.668 [main            ] INFO  LogicTreeTest          - 测试结果：null
+24-10-18.22:02:19.700 [SimpleAsyncTaskExecutor-7] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:02:19.702 [SimpleAsyncTaskExecutor-7] INFO  SimpleMessageListenerContainer - Restarting Consumer@356469f6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:02:19.701 [SimpleAsyncTaskExecutor-7] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -903,22 +1065,34 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:47:11.439 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 26724 (started by Lenovo in E:\big-market\big-market\big-market-app)
-24-10-24.21:47:11.439 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
-24-10-24.21:47:12.152 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-24-10-24.21:47:12.153 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-24-10-24.21:47:12.215 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
-24-10-24.21:47:12.622 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$508ec953] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:47:12.697 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a230b25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-24-10-24.21:47:14.074 [main            ] INFO  Version                - Redisson 3.23.4
-24-10-24.21:47:15.470 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.21:47:15.484 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.21:47:17.718 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-24-10-24.21:47:17.777 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
-24-10-24.21:47:17.847 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:19.880 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
-24-10-24.21:47:19.888 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:21.936 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:02:24.810 [SimpleAsyncTaskExecutor-7] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:02:24.813 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:02:24.820 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-18.22:02:24.820 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-18.22:02:24.820 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-18.22:02:24.820 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-18.22:02:24.823 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-18.22:02:24.824 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-18.22:02:24.824 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-18.22:02:25.005 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-18.22:02:25.005 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-18.22:02:26.867 [SimpleAsyncTaskExecutor-8] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:39.806 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest on Bread with PID 7536 (started by Lenovo in E:\big-market\big-market\big-market-app)
+24-10-18.22:38:39.807 [main            ] INFO  LogicTreeTest          - The following profiles are active: dev
+24-10-18.22:38:40.722 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+24-10-18.22:38:40.724 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+24-10-18.22:38:40.767 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+24-10-18.22:38:41.231 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$508ec953] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.22:38:41.306 [main            ] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a230b25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+24-10-18.22:38:42.824 [main            ] INFO  Version                - Redisson 3.23.4
+24-10-18.22:38:45.116 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-18.22:38:45.126 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-18.22:38:47.375 [main            ] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+24-10-18.22:38:47.436 [main            ] INFO  EndpointLinksResolver  - Exposing 2 endpoint(s) beneath base path '/actuator'
+24-10-18.22:38:47.520 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:49.588 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
+24-10-18.22:38:49.601 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:51.646 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -946,11 +1120,11 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:47:21.940 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:23.975 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:26.003 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
-24-10-24.21:47:26.005 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:28.051 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:38:51.651 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:53.691 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:55.756 [main            ] INFO  SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start
+24-10-18.22:38:55.756 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:57.824 [SimpleAsyncTaskExecutor-1] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
@@ -978,28 +1152,30 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
 	... 9 common frames omitted
-24-10-24.21:47:28.051 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:29.076 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
-24-10-24.21:47:29.081 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@28e48b65: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
-24-10-24.21:47:30.103 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
-24-10-24.21:47:30.123 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 19.013 seconds (JVM running for 19.731)
-24-10-24.21:47:30.224 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:107
-24-10-24.21:47:30.225 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
-24-10-24.21:47:30.225 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:107
-24-10-24.21:47:30.254 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100001 awardId:107
-24-10-24.21:47:30.337 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
-24-10-24.21:47:30.337 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:xiaofuge strategyId:100001 awardId:107 ruleValue:1
-24-10-24.21:47:30.337 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:xiaofuge strategyId:100001 awardId:1 awardRuleValue:
-24-10-24.21:47:30.337 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
-24-10-24.21:47:30.449 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":1,"awardRuleValue":""}
-24-10-24.21:47:30.454 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
-24-10-24.21:47:30.454 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
-24-10-24.21:47:30.454 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
-24-10-24.21:47:30.455 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
-24-10-24.21:47:30.457 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
-24-10-24.21:47:30.457 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
-24-10-24.21:47:30.457 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
-24-10-24.21:47:32.145 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+24-10-18.22:38:57.825 [SimpleAsyncTaskExecutor-1] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:58.776 [SimpleAsyncTaskExecutor-1] WARN  SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+24-10-18.22:38:58.779 [SimpleAsyncTaskExecutor-1] INFO  SimpleMessageListenerContainer - Restarting Consumer@6cde0c69: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+24-10-18.22:38:59.878 [SimpleAsyncTaskExecutor-2] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-10-18.22:38:59.895 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 20.485 seconds (JVM running for 21.495)
+24-10-18.22:39:00.001 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤-次数锁 userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.22:39:00.002 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-10-18.22:39:00.002 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.22:39:00.028 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-18.22:39:00.030 [main            ] WARN  RuleStockLogicTreeNode - 规则过滤-库存扣减-告警，库存不足。userId:xiaofuge strategyId:100001 awardId:100
+24-10-18.22:39:00.030 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0000
+24-10-18.22:39:00.036 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-18.22:39:00.036 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-18.22:39:00.138 [main            ] INFO  LogicTreeTest          - 测试结果：null
+24-10-18.22:39:00.145 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-18.22:39:00.145 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-18.22:39:00.145 [Thread-7        ] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-10-18.22:39:00.145 [Thread-7        ] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-10-18.22:39:00.147 [Thread-7        ] INFO  ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+24-10-18.22:39:00.148 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-18.22:39:00.148 [Thread-7        ] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+24-10-18.22:39:00.985 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-18.22:39:00.985 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-18.22:39:01.908 [SimpleAsyncTaskExecutor-2] ERROR SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
 org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
 	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
 	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)

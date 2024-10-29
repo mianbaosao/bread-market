@@ -17,8 +17,8 @@
         insert into task(
             user_id, topic, message_id, message, state, create_time, update_time
         ) values (
-         #{userId},#{topic},#{messageId},#{message},#{state},now(),now()
-         )
+                     #{userId},#{topic},#{messageId},#{message},#{state},now(),now()
+                 )
     </insert>
 
     <update id="updateTaskSendMessageCompleted"
@@ -40,4 +40,5 @@
         where state = 'fail' or (state = 'create' and now() - update_time > 6)
         limit 10
     </select>
+
 </mapper>

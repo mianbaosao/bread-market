@@ -1,2 +1,0 @@
-24-10-15.19:17:07.097 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m56s112ms382µs600ns).
-24-10-15.19:28:37.474 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=10m24s548ms311µs900ns).

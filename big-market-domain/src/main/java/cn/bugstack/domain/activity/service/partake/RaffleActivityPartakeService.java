@@ -101,5 +101,4 @@ public class RaffleActivityPartakeService extends AbstractRaffleActivityPartake 
         userRaffleOrder.setOrderState(UserRaffleOrderStateVO.create);
         return userRaffleOrder;
     }
-
 }
