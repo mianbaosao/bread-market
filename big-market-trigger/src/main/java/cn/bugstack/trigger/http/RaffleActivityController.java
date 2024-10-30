@@ -24,9 +24,7 @@ import javax.annotation.Resource;
 import java.util.Date;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 抽奖活动服务 注意；在不引用 application/case 层的时候，就需要让接口实现层来做领域的串联。一些较大规模的系统，需要加入 case 层。
- * @create 2024-04-13 09:42
  */
 @Slf4j
 @RestController()
