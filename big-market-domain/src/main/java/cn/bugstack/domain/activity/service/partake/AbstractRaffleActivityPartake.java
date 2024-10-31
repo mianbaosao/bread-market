@@ -16,6 +16,7 @@ import java.util.Date;
 
 /**
  * @description 抽奖活动参与抽奖类
+ * 模板模式
  */
 @Slf4j
 public abstract class AbstractRaffleActivityPartake implements IRaffleActivityPartakeService {

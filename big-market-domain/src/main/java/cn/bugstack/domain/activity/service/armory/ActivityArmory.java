@@ -11,9 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 活动sku预热
- * @create 2024-03-30 09:12
  */
 @Slf4j
 @Service
