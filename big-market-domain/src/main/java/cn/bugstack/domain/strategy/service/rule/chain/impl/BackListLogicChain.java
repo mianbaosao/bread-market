@@ -24,6 +24,7 @@ public class BackListLogicChain extends AbstractLogicChain {
         log.info("抽奖责任链-黑名单开始 userId: {} strategyId: {} ruleModel: {}", userId, strategyId, ruleModel());
 
         // 查询规则值配置
+        //rulevalue:101：user001，user002。。。
         String ruleValue = repository.queryStrategyRuleValue(strategyId, ruleModel());
         String[] splitRuleValue = ruleValue.split(Constants.COLON);
         Integer awardId = Integer.parseInt(splitRuleValue[0]);

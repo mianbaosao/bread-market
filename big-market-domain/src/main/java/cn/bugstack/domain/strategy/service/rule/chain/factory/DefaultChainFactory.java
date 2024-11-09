@@ -28,6 +28,7 @@ public class DefaultChainFactory {
      * @return LogicChain
      */
     public ILogicChain openLogicChain(Long strategyId) {
+        //在strategy表里面查看rulemodels等数据
         StrategyEntity strategy = repository.queryStrategyEntityByStrategyId(strategyId);
         String[] ruleModels = strategy.ruleModels();
 
