@@ -30,6 +30,7 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
         DefaultTreeFactory.StrategyAwardVO strategyAwardData = null;
 
         // 获取基础信息
+        //要先运行了DecisionTreeEngine拿到了才能继续运行下面的逻辑，工厂哪里已经提前运行了
         String nextNode = ruleTreeVO.getTreeRootRuleNode();
         Map<String, RuleTreeNodeVO> treeNodeMap = ruleTreeVO.getTreeNodeMap();
 

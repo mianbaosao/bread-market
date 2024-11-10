@@ -104,6 +104,7 @@ public class StrategyRepository implements IStrategyRepository {
 
     @Override
     public int getRateRange(String key) {
+        //big_market_strategy_rate_range_key_
         String cacheKey = Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + key;
         if (!redisService.isExists(cacheKey)) {
             throw new AppException(UN_ASSEMBLED_STRATEGY_ARMORY.getCode(), cacheKey + Constants.COLON + UN_ASSEMBLED_STRATEGY_ARMORY.getInfo());
@@ -179,10 +180,14 @@ public class StrategyRepository implements IStrategyRepository {
         if (null != ruleTreeVOCache) return ruleTreeVOCache;
 
         // 从数据库获取
+        //ruletree是从rule_tree表里面查找的树的相关信息
         RuleTree ruleTree = ruleTreeDao.queryRuleTreeByTreeId(treeId);
+        //ruleTreeNodes就是从rule_tree_node表里面查找的树节点信息
         List<RuleTreeNode> ruleTreeNodes = ruleTreeNodeDao.queryRuleTreeNodeListByTreeId(treeId);
+        //ruleTreeNodeLines就是从rule_tree_node_line表查询的树连接线的情况
         List<RuleTreeNodeLine> ruleTreeNodeLines = ruleTreeNodeLineDao.queryRuleTreeNodeLineListByTreeId(treeId);
 
+        //下面三层是环环相扣的现有ruleTreeNodeLineMap再有treeNodeMap。。。
         // 1. tree node line 转换Map结构
         Map<String, List<RuleTreeNodeLineVO>> ruleTreeNodeLineMap = new HashMap<>();
         for (RuleTreeNodeLine ruleTreeNodeLine : ruleTreeNodeLines) {
@@ -199,6 +204,7 @@ public class StrategyRepository implements IStrategyRepository {
         }
 
         // 2. tree node 转换为Map结构
+        //RuleTreeNodeVO下有规则连线规则的集合
         Map<String, RuleTreeNodeVO> treeNodeMap = new HashMap<>();
         for (RuleTreeNode ruleTreeNode : ruleTreeNodes) {
             RuleTreeNodeVO ruleTreeNodeVO = RuleTreeNodeVO.builder()
@@ -212,6 +218,7 @@ public class StrategyRepository implements IStrategyRepository {
         }
 
         // 3. 构建 Rule Tree
+        //RuleTreeVO下有规则结点的集合
         RuleTreeVO ruleTreeVODB = RuleTreeVO.builder()
                 .treeId(ruleTree.getTreeId())
                 .treeName(ruleTree.getTreeName())
@@ -219,7 +226,7 @@ public class StrategyRepository implements IStrategyRepository {
                 .treeRootRuleNode(ruleTree.getTreeRootRuleKey())
                 .treeNodeMap(treeNodeMap)
                 .build();
-
+        //rule_tree_vo_key_"
         redisService.setValue(cacheKey, ruleTreeVODB);
         return ruleTreeVODB;
     }
