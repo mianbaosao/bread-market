@@ -13,6 +13,7 @@ import javax.annotation.Resource;
 
 /**
  * @description 奖品服务
+ * --构建消息队列
  */
 @Service
 public class AwardService implements IAwardService {

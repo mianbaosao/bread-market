@@ -13,9 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description
- * @create 2024-04-05 07:53
  */
 @Service
 public class RaffleActivityPartakeService extends AbstractRaffleActivityPartake {

@@ -10,6 +10,7 @@ import java.util.Date;
 
 /**
  * @description 活动sku库存清空消息
+ * 生产者
  */
 @Component
 public class ActivitySkuStockZeroMessageEvent extends BaseEvent<Long> {

@@ -13,9 +13,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 活动sku库存耗尽
- * @create 2024-03-30 12:31
  */
 @Slf4j
 @Component

@@ -13,6 +13,7 @@ import java.util.Date;
 
 /**
  * @description 用户奖品记录事件消息
+ * 生产者
  */
 @Component
 public class SendAwardMessageEvent extends BaseEvent<SendAwardMessageEvent.SendAwardMessage> {
